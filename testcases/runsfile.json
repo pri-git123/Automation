@@ -1,0 +1,14 @@
+{
+  "pipelines1": [
+    {
+      "selected_pipeline": "AlphaFold2 Multimer (V3)",
+      "pipeline_name": "multimer-batchrun",
+      "file_path": "/Users/nishantchauhan/Downloads/test-files/monomer-test/monomer-batch 2/monomer-short -2.fasta"
+    },
+    {
+      "selected_pipeline": "AlphaFold2 Monomer (V2)",
+      "pipeline_name": "monomer-batchrun",
+      "file_path": "/Users/nishantchauhan/Downloads/test-files/multimer-test/multimer-batch/multimer-1.fasta"
+    }
+  ]
+}

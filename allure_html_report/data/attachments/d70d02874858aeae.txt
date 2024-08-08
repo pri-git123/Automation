@@ -1,0 +1,12 @@
+[32mINFO    [0m create:CreateWorkspace.py:25 Starting workspace creation process...
+[32mINFO    [0m create:CreateWorkspace.py:29 Clicked on 'Add New' button.
+[32mINFO    [0m create:CreateWorkspace.py:32 Selected workspace type: (Demo) Protein Folding using Alphafold2
+[32mINFO    [0m create:CreateWorkspace.py:35 Entered workspace name: workDemo_Protein_Folding
+[32mINFO    [0m create:CreateWorkspace.py:42 Clicked on 'Edit' button.
+[32mINFO    [0m create:CreateWorkspace.py:47 Entered CPU value: 150
+[32mINFO    [0m create:CreateWorkspace.py:52 Entered memory value: 152
+[32mINFO    [0m create:CreateWorkspace.py:56 Selected CPU unit: m
+[32mINFO    [0m create:CreateWorkspace.py:60 Selected memory unit: Mi
+[32mINFO    [0m create:CreateWorkspace.py:64 Clicked on 'Edit' button.
+[32mINFO    [0m create:CreateWorkspace.py:70 Clicked on 'Launch' button.
+[32mINFO    [0m create:CreateWorkspace.py:73 Workspace 'workDemo_Protein_Folding' created successfully.

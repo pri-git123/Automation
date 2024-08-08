@@ -1,0 +1,21 @@
+[32mINFO    [0m create:CreateWorkspace.py:25 Starting workspace creation process...
+[31m[1mERROR   [0m create:CreateWorkspace.py:75 Failed to create workspace 'workBasic_JupyterLab'. Error: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[normalize-space()='Add New']"}
+  (Session info: chrome=122.0.6261.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000104dac53c chromedriver + 3966268
+1   chromedriver                        0x0000000104da4ac8 chromedriver + 3934920
+2   chromedriver                        0x0000000104a27da0 chromedriver + 277920
+3   chromedriver                        0x0000000104a6a394 chromedriver + 549780
+4   chromedriver                        0x0000000104aa2bf0 chromedriver + 781296
+5   chromedriver                        0x0000000104a5efb0 chromedriver + 503728
+6   chromedriver                        0x0000000104a5fa28 chromedriver + 506408
+7   chromedriver                        0x0000000104d71724 chromedriver + 3725092
+8   chromedriver                        0x0000000104d75c18 chromedriver + 3742744
+9   chromedriver                        0x0000000104d5a20c chromedriver + 3629580
+10  chromedriver                        0x0000000104d76714 chromedriver + 3745556
+11  chromedriver                        0x0000000104d4d584 chromedriver + 3577220
+12  chromedriver                        0x0000000104d94f74 chromedriver + 3870580
+13  chromedriver                        0x0000000104d95118 chromedriver + 3871000
+14  chromedriver                        0x0000000104da4738 chromedriver + 3934008
+15  libsystem_pthread.dylib             0x000000018a38bfa8 _pthread_start + 148
+16  libsystem_pthread.dylib             0x000000018a386da0 thread_start + 8

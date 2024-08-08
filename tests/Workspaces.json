@@ -1,0 +1,7 @@
+{
+  "Workspaces": [
+    {"name": "workBasic_JupyterLab", "type": "JupyterLab"},
+    {"name": "workAdmin_Terminal", "type": "Terminal"},
+    {"name": "workDemo_Protein_Folding", "type": "Protein Folding"}
+  ]
+}

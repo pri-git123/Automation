@@ -1,0 +1,1343 @@
+2024-05-28 18:48:19,113 :INFO : driver_setup :Setting up the driver
+2024-05-28 18:48:31,786 :INFO : test_login :Starting login test.
+2024-05-28 18:48:31,865 :INFO : module :Clicked on 'Science Cloud' module.
+2024-05-28 18:48:41,883 :INFO : module :Switched to new window.
+2024-05-28 18:48:51,888 :INFO : module :Waiting for email input element to be located.
+2024-05-28 18:48:52,012 :INFO : module :Entered email address.
+2024-05-28 18:48:52,037 :INFO : module :Entered password.
+2024-05-28 18:48:54,116 :INFO : module :Clicked on 'Submit' button.
+2024-05-28 18:49:04,124 :INFO : module :Login successful.
+2024-05-28 18:49:04,126 :INFO : test_login :Login test completed.
+2024-05-28 18:49:04,139 :INFO : test_click_pipeline_tab_and_launchpad :Clicking pipeline tab.
+2024-05-28 18:49:08,202 :INFO : test_click_pipeline_tab_and_launchpad :Clicking launchpad tab.
+2024-05-28 18:49:13,290 :INFO : test_create_pipeline :Creating pipeline with config: {'selected_pipeline': 'AlphaFold2 Monomer New Dir. Struct', 'name': 'alphafold_jobrun'}
+2024-05-28 18:49:23,444 :INFO : test_connect_workspace :Connecting to workspace.
+2024-05-28 18:49:23,451 :INFO : delete_workspace :No more workspaces to delete.
+2024-05-28 18:49:23,453 :INFO : test_stop_workspace :Stopping workspace.
+2024-05-28 18:50:08,565 :ERROR : wait_for_success_workspaces :An error occurred while waiting for success workspaces: Message: 
+
+2024-05-28 18:50:13,666 :INFO : stop_workspaces :Clicked the 'Refresh' button.
+2024-05-28 18:50:13,771 :INFO : test_start_workspace :Starting workspace.
+2024-05-28 18:50:18,840 :INFO : process_workspaces :Clicked on the action tooltip.
+2024-05-28 18:50:24,167 :INFO : process_workspaces :Clicked on the 'Start' button.
+2024-05-28 18:50:29,262 :INFO : process_workspaces :Workspace name: demo-2
+2024-05-28 18:50:34,387 :INFO : process_workspaces :Clicked on the 'Start' button in the modal.
+2024-05-28 18:50:44,416 :INFO : process_workspaces :Clicked on the action tooltip.
+2024-05-28 18:50:49,713 :INFO : process_workspaces :Clicked on the 'Start' button.
+2024-05-28 18:50:49,726 :ERROR : process_workspaces :An error occurred: Message: element not interactable
+  (Session info: chrome=125.0.6422.77)
+Stacktrace:
+0   chromedriver                        0x00000001045fe510 chromedriver + 4302096
+1   chromedriver                        0x00000001045f6e58 chromedriver + 4271704
+2   chromedriver                        0x0000000104228000 chromedriver + 278528
+3   chromedriver                        0x000000010426b398 chromedriver + 553880
+4   chromedriver                        0x0000000104260e24 chromedriver + 511524
+5   chromedriver                        0x000000010426085c chromedriver + 510044
+6   chromedriver                        0x00000001042a2c5c chromedriver + 781404
+7   chromedriver                        0x000000010425f004 chromedriver + 503812
+8   chromedriver                        0x000000010425f9ec chromedriver + 506348
+9   chromedriver                        0x00000001045c6558 chromedriver + 4072792
+10  chromedriver                        0x00000001045cb004 chromedriver + 4091908
+11  chromedriver                        0x00000001045ad79c chromedriver + 3970972
+12  chromedriver                        0x00000001045cb8ec chromedriver + 4094188
+13  chromedriver                        0x00000001045a071c chromedriver + 3917596
+14  chromedriver                        0x00000001045e8b50 chromedriver + 4213584
+15  chromedriver                        0x00000001045e8ccc chromedriver + 4213964
+16  chromedriver                        0x00000001045f6a50 chromedriver + 4270672
+17  libsystem_pthread.dylib             0x0000000189493fa8 _pthread_start + 148
+18  libsystem_pthread.dylib             0x000000018948eda0 thread_start + 8
+
+2024-05-28 18:50:49,733 :INFO : test_restart_workspace :Restarting workspace.
+2024-05-28 18:51:34,844 :ERROR : wait_for_success_workspaces :An error occurred while waiting for success workspaces: Message: 
+
+2024-05-28 18:51:34,844 :ERROR : wait_for_success_workspaces :An error occurred while waiting for success workspaces: Message: 
+
+2024-05-28 18:51:39,899 :INFO : restart_workspaces :Clicked the 'Refresh' button.
+2024-05-28 18:51:39,992 :INFO : test_share_workspace :Sharing workspace.
+2024-05-28 18:51:45,070 :INFO : sharing_workspaces :Clicked on the action tip for workspace 1.
+2024-05-28 18:51:50,152 :INFO : sharing_workspaces :Clicked on the sharing button.
+2024-05-28 18:51:52,231 :INFO : sharing_workspaces :Clicked on the 'Please Select' option.
+2024-05-28 18:52:12,741 :ERROR : sharing_workspaces :Timeout occurred: Message: 
+Stacktrace:
+0   chromedriver                        0x00000001045fe510 chromedriver + 4302096
+1   chromedriver                        0x00000001045f6e58 chromedriver + 4271704
+2   chromedriver                        0x000000010422819c chromedriver + 278940
+3   chromedriver                        0x000000010426a2c4 chromedriver + 549572
+4   chromedriver                        0x00000001042a2c5c chromedriver + 781404
+5   chromedriver                        0x000000010425f004 chromedriver + 503812
+6   chromedriver                        0x000000010425f9ec chromedriver + 506348
+7   chromedriver                        0x00000001045c6558 chromedriver + 4072792
+8   chromedriver                        0x00000001045cb004 chromedriver + 4091908
+9   chromedriver                        0x00000001045ad79c chromedriver + 3970972
+10  chromedriver                        0x00000001045cb8ec chromedriver + 4094188
+11  chromedriver                        0x00000001045a071c chromedriver + 3917596
+12  chromedriver                        0x00000001045e8b50 chromedriver + 4213584
+13  chromedriver                        0x00000001045e8ccc chromedriver + 4213964
+14  chromedriver                        0x00000001045f6a50 chromedriver + 4270672
+15  libsystem_pthread.dylib             0x0000000189493fa8 _pthread_start + 148
+16  libsystem_pthread.dylib             0x000000018948eda0 thread_start + 8
+
+2024-05-28 18:52:13,812 :ERROR : sharing_workspaces :An error occurred: Message: element click intercepted: Element <span class="action-tooltip position-absolute inset-0" data-tip="Actions" data-for="action-tip" currentitem="false"></span> is not clickable at point (1397, 310). Other element would receive the click: <div class="_modal_1tdaz_1 modal d-block">...</div>
+  (Session info: chrome=125.0.6422.77)
+Stacktrace:
+0   chromedriver                        0x00000001045fe510 chromedriver + 4302096
+1   chromedriver                        0x00000001045f6e58 chromedriver + 4271704
+2   chromedriver                        0x000000010422819c chromedriver + 278940
+3   chromedriver                        0x000000010426fd48 chromedriver + 572744
+4   chromedriver                        0x000000010426e2ec chromedriver + 565996
+5   chromedriver                        0x000000010426c47c chromedriver + 558204
+6   chromedriver                        0x000000010426b9cc chromedriver + 555468
+7   chromedriver                        0x0000000104260e24 chromedriver + 511524
+8   chromedriver                        0x000000010426085c chromedriver + 510044
+9   chromedriver                        0x00000001042a2c5c chromedriver + 781404
+10  chromedriver                        0x000000010425f004 chromedriver + 503812
+11  chromedriver                        0x000000010425f9ec chromedriver + 506348
+12  chromedriver                        0x00000001045c6558 chromedriver + 4072792
+13  chromedriver                        0x00000001045cb004 chromedriver + 4091908
+14  chromedriver                        0x00000001045ad79c chromedriver + 3970972
+15  chromedriver                        0x00000001045cb8ec chromedriver + 4094188
+16  chromedriver                        0x00000001045a071c chromedriver + 3917596
+17  chromedriver                        0x00000001045e8b50 chromedriver + 4213584
+18  chromedriver                        0x00000001045e8ccc chromedriver + 4213964
+19  chromedriver                        0x00000001045f6a50 chromedriver + 4270672
+20  libsystem_pthread.dylib             0x0000000189493fa8 _pthread_start + 148
+21  libsystem_pthread.dylib             0x000000018948eda0 thread_start + 8
+
+2024-05-28 18:52:14,868 :ERROR : sharing_workspaces :An error occurred: Message: element click intercepted: Element <span class="action-tooltip position-absolute inset-0" data-tip="Actions" data-for="action-tip" currentitem="false"></span> is not clickable at point (1397, 360). Other element would receive the click: <div class="_modal_1tdaz_1 modal d-block">...</div>
+  (Session info: chrome=125.0.6422.77)
+Stacktrace:
+0   chromedriver                        0x00000001045fe510 chromedriver + 4302096
+1   chromedriver                        0x00000001045f6e58 chromedriver + 4271704
+2   chromedriver                        0x000000010422819c chromedriver + 278940
+3   chromedriver                        0x000000010426fd48 chromedriver + 572744
+4   chromedriver                        0x000000010426e2ec chromedriver + 565996
+5   chromedriver                        0x000000010426c47c chromedriver + 558204
+6   chromedriver                        0x000000010426b9cc chromedriver + 555468
+7   chromedriver                        0x0000000104260e24 chromedriver + 511524
+8   chromedriver                        0x000000010426085c chromedriver + 510044
+9   chromedriver                        0x00000001042a2c5c chromedriver + 781404
+10  chromedriver                        0x000000010425f004 chromedriver + 503812
+11  chromedriver                        0x000000010425f9ec chromedriver + 506348
+12  chromedriver                        0x00000001045c6558 chromedriver + 4072792
+13  chromedriver                        0x00000001045cb004 chromedriver + 4091908
+14  chromedriver                        0x00000001045ad79c chromedriver + 3970972
+15  chromedriver                        0x00000001045cb8ec chromedriver + 4094188
+16  chromedriver                        0x00000001045a071c chromedriver + 3917596
+17  chromedriver                        0x00000001045e8b50 chromedriver + 4213584
+18  chromedriver                        0x00000001045e8ccc chromedriver + 4213964
+19  chromedriver                        0x00000001045f6a50 chromedriver + 4270672
+20  libsystem_pthread.dylib             0x0000000189493fa8 _pthread_start + 148
+21  libsystem_pthread.dylib             0x000000018948eda0 thread_start + 8
+
+2024-05-28 18:52:15,924 :ERROR : sharing_workspaces :An error occurred: Message: element click intercepted: Element <span class="action-tooltip position-absolute inset-0" data-tip="Actions" data-for="action-tip" currentitem="false"></span> is not clickable at point (1397, 410). Other element would receive the click: <div class="_modal_1tdaz_1 modal d-block">...</div>
+  (Session info: chrome=125.0.6422.77)
+Stacktrace:
+0   chromedriver                        0x00000001045fe510 chromedriver + 4302096
+1   chromedriver                        0x00000001045f6e58 chromedriver + 4271704
+2   chromedriver                        0x000000010422819c chromedriver + 278940
+3   chromedriver                        0x000000010426fd48 chromedriver + 572744
+4   chromedriver                        0x000000010426e2ec chromedriver + 565996
+5   chromedriver                        0x000000010426c47c chromedriver + 558204
+6   chromedriver                        0x000000010426b9cc chromedriver + 555468
+7   chromedriver                        0x0000000104260e24 chromedriver + 511524
+8   chromedriver                        0x000000010426085c chromedriver + 510044
+9   chromedriver                        0x00000001042a2c5c chromedriver + 781404
+10  chromedriver                        0x000000010425f004 chromedriver + 503812
+11  chromedriver                        0x000000010425f9ec chromedriver + 506348
+12  chromedriver                        0x00000001045c6558 chromedriver + 4072792
+13  chromedriver                        0x00000001045cb004 chromedriver + 4091908
+14  chromedriver                        0x00000001045ad79c chromedriver + 3970972
+15  chromedriver                        0x00000001045cb8ec chromedriver + 4094188
+16  chromedriver                        0x00000001045a071c chromedriver + 3917596
+17  chromedriver                        0x00000001045e8b50 chromedriver + 4213584
+18  chromedriver                        0x00000001045e8ccc chromedriver + 4213964
+19  chromedriver                        0x00000001045f6a50 chromedriver + 4270672
+20  libsystem_pthread.dylib             0x0000000189493fa8 _pthread_start + 148
+21  libsystem_pthread.dylib             0x000000018948eda0 thread_start + 8
+
+2024-05-28 18:52:16,996 :ERROR : sharing_workspaces :An error occurred: Message: element click intercepted: Element <span class="action-tooltip position-absolute inset-0" data-tip="Actions" data-for="action-tip" currentitem="false"></span> is not clickable at point (1397, 460). Other element would receive the click: <div class="_modal_1tdaz_1 modal d-block">...</div>
+  (Session info: chrome=125.0.6422.77)
+Stacktrace:
+0   chromedriver                        0x00000001045fe510 chromedriver + 4302096
+1   chromedriver                        0x00000001045f6e58 chromedriver + 4271704
+2   chromedriver                        0x000000010422819c chromedriver + 278940
+3   chromedriver                        0x000000010426fd48 chromedriver + 572744
+4   chromedriver                        0x000000010426e2ec chromedriver + 565996
+5   chromedriver                        0x000000010426c47c chromedriver + 558204
+6   chromedriver                        0x000000010426b9cc chromedriver + 555468
+7   chromedriver                        0x0000000104260e24 chromedriver + 511524
+8   chromedriver                        0x000000010426085c chromedriver + 510044
+9   chromedriver                        0x00000001042a2c5c chromedriver + 781404
+10  chromedriver                        0x000000010425f004 chromedriver + 503812
+11  chromedriver                        0x000000010425f9ec chromedriver + 506348
+12  chromedriver                        0x00000001045c6558 chromedriver + 4072792
+13  chromedriver                        0x00000001045cb004 chromedriver + 4091908
+14  chromedriver                        0x00000001045ad79c chromedriver + 3970972
+15  chromedriver                        0x00000001045cb8ec chromedriver + 4094188
+16  chromedriver                        0x00000001045a071c chromedriver + 3917596
+17  chromedriver                        0x00000001045e8b50 chromedriver + 4213584
+18  chromedriver                        0x00000001045e8ccc chromedriver + 4213964
+19  chromedriver                        0x00000001045f6a50 chromedriver + 4270672
+20  libsystem_pthread.dylib             0x0000000189493fa8 _pthread_start + 148
+21  libsystem_pthread.dylib             0x000000018948eda0 thread_start + 8
+
+2024-05-28 18:52:19,216 :INFO : driver_setup :Setting up the driver
+2024-05-28 18:52:31,794 :INFO : test_login :Starting login test.
+2024-05-28 18:52:31,853 :INFO : module :Clicked on 'Science Cloud' module.
+2024-05-28 18:52:41,882 :INFO : module :Switched to new window.
+2024-05-28 18:52:51,888 :INFO : module :Waiting for email input element to be located.
+2024-05-28 18:52:52,003 :INFO : module :Entered email address.
+2024-05-28 18:52:52,027 :INFO : module :Entered password.
+2024-05-28 18:52:54,142 :INFO : module :Clicked on 'Submit' button.
+2024-05-28 18:53:04,147 :INFO : module :Login successful.
+2024-05-28 18:53:04,148 :INFO : test_login :Login test completed.
+2024-05-28 18:53:04,158 :INFO : test_click_pipeline_tab_and_launchpad :Clicking pipeline tab.
+2024-05-28 18:53:08,211 :INFO : test_click_pipeline_tab_and_launchpad :Clicking launchpad tab.
+2024-05-28 18:53:13,305 :INFO : test_create_pipeline :Creating pipeline with config: {'selected_pipeline': 'AlphaFold2 Monomer New Dir. Struct', 'name': 'alphafold_jobrun'}
+2024-05-28 18:53:27,455 :INFO : test_connect_workspace :Connecting to workspace.
+2024-05-28 18:53:27,474 :INFO : delete_workspace :No more workspaces to delete.
+2024-05-28 18:53:27,477 :INFO : test_stop_workspace :Stopping workspace.
+2024-05-28 18:55:30,738 :INFO : driver_setup :Setting up the driver
+2024-05-28 18:55:44,126 :INFO : test_login :Starting login test.
+2024-05-28 18:55:44,226 :INFO : module :Clicked on 'Science Cloud' module.
+2024-05-28 18:55:54,235 :INFO : module :Switched to new window.
+2024-05-28 18:56:04,241 :INFO : module :Waiting for email input element to be located.
+2024-05-28 18:56:04,367 :INFO : module :Entered email address.
+2024-05-28 18:56:04,391 :INFO : module :Entered password.
+2024-05-28 18:56:06,424 :INFO : module :Clicked on 'Submit' button.
+2024-05-28 18:56:16,430 :INFO : module :Login successful.
+2024-05-28 18:56:16,432 :INFO : test_login :Login test completed.
+2024-05-28 18:56:16,446 :INFO : test_click_pipeline_tab_and_launchpad :Clicking pipeline tab.
+2024-05-28 18:56:20,499 :INFO : test_click_pipeline_tab_and_launchpad :Clicking launchpad tab.
+2024-05-28 18:56:25,585 :INFO : test_create_pipeline :Creating pipeline with config: {'selected_pipeline': 'AlphaFold2 Monomer New Dir. Struct', 'name': 'alphafold_jobrun'}
+2024-05-28 18:56:39,782 :INFO : test_connect_workspace :Connecting to workspace.
+2024-05-28 18:56:39,790 :INFO : delete_workspace :No more workspaces to delete.
+2024-05-28 18:56:39,792 :INFO : test_stop_workspace :Stopping workspace.
+2024-05-28 18:56:40,899 :INFO : test_start_workspace :Starting workspace.
+2024-05-28 18:56:40,919 :INFO : test_restart_workspace :Restarting workspace.
+2024-05-28 18:56:40,934 :INFO : test_share_workspace :Sharing workspace.
+2024-05-28 18:56:40,949 :INFO : test_delete_workspace :Deleting workspace.
+2024-05-28 18:56:40,953 :INFO : delete_workspace :No more workspaces to delete.
+2024-05-28 18:56:40,953 :INFO : delete_workspace :No more workspaces to delete.
+2024-05-28 18:56:40,956 :INFO : test_delete_workspace :No workspaces left to delete.
+2024-05-28 20:41:49,246 :INFO : driver_setup :Setting up the driver
+2024-05-28 20:45:54,672 :INFO : driver_setup :Setting up the driver
+2024-05-28 20:46:07,357 :INFO : test_login :Starting login test.
+2024-05-28 20:46:07,420 :INFO : module :Clicked on 'Science Cloud' module.
+2024-05-28 20:46:17,435 :INFO : module :Switched to new window.
+2024-05-28 20:46:27,441 :INFO : module :Waiting for email input element to be located.
+2024-05-28 20:46:27,561 :INFO : module :Entered email address.
+2024-05-28 20:46:27,585 :INFO : module :Entered password.
+2024-05-28 20:46:29,569 :INFO : module :Clicked on 'Submit' button.
+2024-05-28 20:46:39,578 :INFO : module :Login successful.
+2024-05-28 20:46:39,580 :INFO : test_login :Login test completed.
+2024-05-28 20:46:39,589 :INFO : test_click_pipeline_tab_and_launchpad :Clicking pipeline tab.
+2024-05-28 20:46:43,656 :INFO : test_click_pipeline_tab_and_launchpad :Clicking launchpad tab.
+2024-05-28 20:46:48,743 :INFO : test_create_pipeline :Creating pipeline with config: {'selected_pipeline': 'AlphaFold2 Monomer New Dir. Struct', 'name': 'alphafold_jobrun'}
+2024-05-28 20:47:15,225 :ERROR : create_pipeline :An error occurred: Message: 
+Stacktrace:
+0   chromedriver                        0x00000001045e6510 chromedriver + 4302096
+1   chromedriver                        0x00000001045dee58 chromedriver + 4271704
+2   chromedriver                        0x000000010421019c chromedriver + 278940
+3   chromedriver                        0x00000001042522c4 chromedriver + 549572
+4   chromedriver                        0x000000010428ac5c chromedriver + 781404
+5   chromedriver                        0x0000000104247004 chromedriver + 503812
+6   chromedriver                        0x00000001042479ec chromedriver + 506348
+7   chromedriver                        0x00000001045ae558 chromedriver + 4072792
+8   chromedriver                        0x00000001045b3004 chromedriver + 4091908
+9   chromedriver                        0x000000010459579c chromedriver + 3970972
+10  chromedriver                        0x00000001045b38ec chromedriver + 4094188
+11  chromedriver                        0x000000010458871c chromedriver + 3917596
+12  chromedriver                        0x00000001045d0b50 chromedriver + 4213584
+13  chromedriver                        0x00000001045d0ccc chromedriver + 4213964
+14  chromedriver                        0x00000001045dea50 chromedriver + 4270672
+15  libsystem_pthread.dylib             0x0000000189493fa8 _pthread_start + 148
+16  libsystem_pthread.dylib             0x000000018948eda0 thread_start + 8
+
+2024-05-28 20:47:15,254 :INFO : test_connect_workspace :Connecting to workspace.
+2024-05-28 20:47:15,267 :INFO : delete_workspace :No more workspaces to delete.
+2024-05-28 20:47:15,270 :INFO : test_stop_workspace :Stopping workspace.
+2024-05-28 20:47:16,382 :INFO : test_start_workspace :Starting workspace.
+2024-05-28 20:47:16,407 :INFO : test_restart_workspace :Restarting workspace.
+2024-05-28 20:47:16,426 :INFO : test_share_workspace :Sharing workspace.
+2024-05-28 20:47:16,442 :INFO : test_delete_workspace :Deleting workspace.
+2024-05-28 20:47:16,447 :INFO : delete_workspace :No more workspaces to delete.
+2024-05-28 20:47:16,447 :INFO : delete_workspace :No more workspaces to delete.
+2024-05-28 20:47:16,450 :INFO : test_delete_workspace :No workspaces left to delete.
+2024-05-28 20:54:40,208 :INFO : driver_setup :Setting up the driver
+2024-05-28 20:54:52,938 :INFO : test_login :Starting login test.
+2024-05-28 20:54:52,998 :INFO : module :Clicked on 'Science Cloud' module.
+2024-05-28 20:55:03,012 :INFO : module :Switched to new window.
+2024-05-28 20:55:13,014 :INFO : module :Waiting for email input element to be located.
+2024-05-28 20:55:13,131 :INFO : module :Entered email address.
+2024-05-28 20:55:13,155 :INFO : module :Entered password.
+2024-05-28 20:55:15,308 :INFO : module :Clicked on 'Submit' button.
+2024-05-28 20:55:25,313 :INFO : module :Login successful.
+2024-05-28 20:55:25,314 :INFO : test_login :Login test completed.
+2024-05-28 20:55:25,328 :INFO : test_click_pipeline_tab_and_launchpad :Clicking pipeline tab.
+2024-05-28 20:55:29,377 :INFO : test_click_pipeline_tab_and_launchpad :Clicking launchpad tab.
+2024-05-28 20:55:34,459 :INFO : test_create_pipeline :Creating pipeline with config: {'selected_pipeline': 'AlphaFold2 Monomer New Dir. Struct', 'name': 'alphafold_jobrun'}
+2024-05-28 20:55:52,092 :INFO : test_connect_workspace :Connecting to workspace.
+2024-05-28 20:55:52,103 :INFO : delete_workspace :No more workspaces to delete.
+2024-05-28 20:55:52,105 :INFO : test_stop_workspace :Stopping workspace.
+2024-05-28 20:55:53,237 :INFO : test_start_workspace :Starting workspace.
+2024-05-28 20:55:53,256 :INFO : test_restart_workspace :Restarting workspace.
+2024-05-28 20:55:53,270 :INFO : test_share_workspace :Sharing workspace.
+2024-05-28 20:55:53,286 :INFO : test_delete_workspace :Deleting workspace.
+2024-05-28 20:55:53,290 :INFO : delete_workspace :No more workspaces to delete.
+2024-05-28 20:55:53,290 :INFO : delete_workspace :No more workspaces to delete.
+2024-05-28 20:55:53,292 :INFO : test_delete_workspace :No workspaces left to delete.
+2024-05-28 21:03:10,512 :INFO : driver_setup :Setting up the driver
+2024-05-28 21:03:23,310 :INFO : test_login :Starting login test.
+2024-05-28 21:03:23,374 :INFO : module :Clicked on 'Science Cloud' module.
+2024-05-28 21:03:33,392 :INFO : module :Switched to new window.
+2024-05-28 21:03:43,397 :INFO : module :Waiting for email input element to be located.
+2024-05-28 21:03:43,524 :INFO : module :Entered email address.
+2024-05-28 21:03:43,548 :INFO : module :Entered password.
+2024-05-28 21:03:45,611 :INFO : module :Clicked on 'Submit' button.
+2024-05-28 21:03:55,616 :INFO : module :Login successful.
+2024-05-28 21:03:55,617 :INFO : test_login :Login test completed.
+2024-05-28 21:03:55,629 :INFO : test_click_pipeline_tab_and_launchpad :Clicking pipeline tab.
+2024-05-28 21:03:59,684 :INFO : test_click_pipeline_tab_and_launchpad :Clicking launchpad tab.
+2024-05-28 21:04:04,771 :INFO : test_create_pipeline :Creating pipeline with config: {'selected_pipeline': 'AlphaFold2 Monomer New Dir. Struct', 'name': 'alphafold_jobrun', 'file_path': '/Users/nishantchauhan/Downloads/test-files/monomer-test/monomer-batch/monomer-short -2.fasta'}
+2024-05-28 21:04:21,101 :INFO : test_connect_workspace :Connecting to workspace.
+2024-05-28 21:04:21,999 :INFO : delete_workspace :No more workspaces to delete.
+2024-05-28 21:04:22,002 :INFO : test_stop_workspace :Stopping workspace.
+2024-05-28 21:04:23,130 :INFO : test_start_workspace :Starting workspace.
+2024-05-28 21:04:23,149 :INFO : test_restart_workspace :Restarting workspace.
+2024-05-28 21:04:23,165 :INFO : test_share_workspace :Sharing workspace.
+2024-05-28 21:04:23,181 :INFO : test_delete_workspace :Deleting workspace.
+2024-05-28 21:04:23,187 :INFO : delete_workspace :No more workspaces to delete.
+2024-05-28 21:04:23,187 :INFO : delete_workspace :No more workspaces to delete.
+2024-05-28 21:04:23,190 :INFO : test_delete_workspace :No workspaces left to delete.
+2024-05-28 21:05:03,481 :INFO : driver_setup :Setting up the driver
+2024-05-28 21:05:16,194 :INFO : test_login :Starting login test.
+2024-05-28 21:05:16,255 :INFO : module :Clicked on 'Science Cloud' module.
+2024-05-28 21:05:26,265 :INFO : module :Switched to new window.
+2024-05-28 21:05:36,271 :INFO : module :Waiting for email input element to be located.
+2024-05-28 21:05:36,380 :INFO : module :Entered email address.
+2024-05-28 21:05:36,404 :INFO : module :Entered password.
+2024-05-28 21:05:38,589 :INFO : module :Clicked on 'Submit' button.
+2024-05-28 21:05:48,594 :INFO : module :Login successful.
+2024-05-28 21:05:48,596 :INFO : test_login :Login test completed.
+2024-05-28 21:05:48,605 :INFO : test_click_pipeline_tab_and_launchpad :Clicking pipeline tab.
+2024-05-28 21:05:52,658 :INFO : test_click_pipeline_tab_and_launchpad :Clicking launchpad tab.
+2024-05-28 21:05:57,754 :INFO : test_create_pipeline :Creating pipeline with config: {'selected_pipeline': 'AlphaFold2 Monomer New Dir. Struct', 'name': 'alphafold_jobrun', 'file_path': '/Users/nishantchauhan/Downloads/test-files/monomer-test/monomer-batch/monomer-short -2.fasta'}
+2024-05-28 21:06:19,067 :INFO : test_connect_workspace :Connecting to workspace.
+2024-05-28 21:06:19,084 :INFO : delete_workspace :No more workspaces to delete.
+2024-05-28 21:06:19,088 :INFO : test_stop_workspace :Stopping workspace.
+2024-05-28 21:06:20,227 :INFO : test_start_workspace :Starting workspace.
+2024-05-28 21:06:20,246 :INFO : test_restart_workspace :Restarting workspace.
+2024-05-28 21:06:20,261 :INFO : test_share_workspace :Sharing workspace.
+2024-05-28 21:06:20,275 :INFO : test_delete_workspace :Deleting workspace.
+2024-05-28 21:06:20,279 :INFO : delete_workspace :No more workspaces to delete.
+2024-05-28 21:06:20,279 :INFO : delete_workspace :No more workspaces to delete.
+2024-05-28 21:06:20,281 :INFO : test_delete_workspace :No workspaces left to delete.
+2024-05-28 21:44:49,809 :INFO : driver_setup :Setting up the driver
+2024-05-28 21:45:03,029 :INFO : test_login :Starting login test.
+2024-05-28 21:45:03,141 :INFO : module :Clicked on 'Science Cloud' module.
+2024-05-28 21:45:13,164 :INFO : module :Switched to new window.
+2024-05-28 21:45:23,172 :INFO : module :Waiting for email input element to be located.
+2024-05-28 21:45:23,338 :INFO : module :Entered email address.
+2024-05-28 21:45:23,363 :INFO : module :Entered password.
+2024-05-28 21:45:25,514 :INFO : module :Clicked on 'Submit' button.
+2024-05-28 21:45:35,520 :INFO : module :Login successful.
+2024-05-28 21:45:35,521 :INFO : test_login :Login test completed.
+2024-05-28 21:45:35,535 :INFO : test_click_pipeline_tab_and_launchpad :Clicking pipeline tab.
+2024-05-28 21:45:39,583 :INFO : test_click_pipeline_tab_and_launchpad :Clicking launchpad tab.
+2024-05-28 21:45:44,683 :INFO : test_create_pipeline :Creating pipeline with config: {'selected_pipeline': 'AlphaFold2 Monomer New Dir. Struct', 'name': 'alphafold_jobrun', 'file_path': '/Users/nishantchauhan/Downloads/test-files/monomer-test/monomer-batch/monomer-short -2.fasta'}
+2024-05-28 21:46:05,964 :INFO : test_connect_workspace :Connecting to workspace.
+2024-05-28 21:46:05,988 :INFO : delete_workspace :No more workspaces to delete.
+2024-05-28 21:46:05,989 :INFO : test_stop_workspace :Stopping workspace.
+2024-05-28 21:46:07,109 :INFO : test_start_workspace :Starting workspace.
+2024-05-28 21:46:07,127 :INFO : test_restart_workspace :Restarting workspace.
+2024-05-28 21:46:07,145 :INFO : test_share_workspace :Sharing workspace.
+2024-05-28 21:46:07,162 :INFO : test_delete_workspace :Deleting workspace.
+2024-05-28 21:46:07,166 :INFO : delete_workspace :No more workspaces to delete.
+2024-05-28 21:46:07,166 :INFO : delete_workspace :No more workspaces to delete.
+2024-05-28 21:46:07,168 :INFO : test_delete_workspace :No workspaces left to delete.
+2024-05-29 10:02:12,101 :INFO : driver_setup :Setting up the driver
+2024-05-29 10:02:25,546 :INFO : test_login :Starting login test.
+2024-05-29 10:02:25,631 :INFO : module :Clicked on 'Science Cloud' module.
+2024-05-29 10:02:35,650 :INFO : module :Switched to new window.
+2024-05-29 10:02:45,654 :INFO : module :Waiting for email input element to be located.
+2024-05-29 10:02:45,799 :INFO : module :Entered email address.
+2024-05-29 10:02:45,833 :INFO : module :Entered password.
+2024-05-29 10:02:48,637 :INFO : module :Clicked on 'Submit' button.
+2024-05-29 10:02:58,641 :INFO : module :Login successful.
+2024-05-29 10:02:58,643 :INFO : test_login :Login test completed.
+2024-05-29 10:02:58,661 :INFO : test_click_pipeline_tab_and_launchpad :Clicking pipeline tab.
+2024-05-29 10:03:02,720 :INFO : test_click_pipeline_tab_and_launchpad :Clicking launchpad tab.
+2024-05-29 10:03:07,821 :INFO : test_create_pipeline :Creating pipeline with config: {'selected_pipeline': 'AlphaFold2 Monomer New Dir. Struct', 'name': 'alphafold_jobrun', 'file_path': '/Users/nishantchauhan/Downloads/test-files/monomer-test/monomer-batch/monomer-short -2.fasta'}
+2024-05-29 10:03:29,119 :INFO : test_connect_workspace :Connecting to workspace.
+2024-05-29 10:03:29,140 :INFO : delete_workspace :No more workspaces to delete.
+2024-05-29 10:03:29,142 :INFO : test_stop_workspace :Stopping workspace.
+2024-05-29 10:03:30,282 :INFO : test_start_workspace :Starting workspace.
+2024-05-29 10:03:30,301 :INFO : test_restart_workspace :Restarting workspace.
+2024-05-29 10:03:30,316 :INFO : test_share_workspace :Sharing workspace.
+2024-05-29 10:03:30,334 :INFO : test_delete_workspace :Deleting workspace.
+2024-05-29 10:03:30,338 :INFO : delete_workspace :No more workspaces to delete.
+2024-05-29 10:03:30,338 :INFO : delete_workspace :No more workspaces to delete.
+2024-05-29 10:03:30,341 :INFO : test_delete_workspace :No workspaces left to delete.
+2024-06-03 11:15:03,223 :INFO : driver_setup :Setting up the driver
+2024-06-03 11:15:25,921 :INFO : test_login :Starting login test.
+2024-06-03 11:15:26,007 :INFO : module :Clicked on 'Science Cloud' module.
+2024-06-03 11:15:36,034 :INFO : module :Switched to new window.
+2024-06-03 11:15:46,036 :INFO : module :Waiting for email input element to be located.
+2024-06-03 11:15:46,173 :INFO : module :Entered email address.
+2024-06-03 11:15:46,205 :INFO : module :Entered password.
+2024-06-03 11:15:48,183 :INFO : module :Clicked on 'Submit' button.
+2024-06-03 11:15:58,186 :INFO : module :Login successful.
+2024-06-03 11:15:58,187 :INFO : test_login :Login test completed.
+2024-06-03 11:15:58,215 :INFO : test_click_pipeline_tab_and_launchpad :Clicking pipeline tab.
+2024-06-03 11:16:02,298 :INFO : test_click_pipeline_tab_and_launchpad :Clicking launchpad tab.
+2024-06-03 11:16:07,412 :INFO : test_create_pipeline :Creating pipeline with config: {'selected_pipeline': 'AlphaFold2 Monomer New Dir. Struct', 'name': 'alphafold_jobrun', 'file_path': '/Users/nishantchauhan/Downloads/test-files/monomer-test/monomer-batch/monomer-short -2.fasta'}
+2024-06-03 11:16:28,735 :INFO : test_connect_workspace :Connecting to workspace.
+2024-06-03 11:16:28,776 :INFO : delete_workspace :No more workspaces to delete.
+2024-06-03 11:16:28,778 :INFO : test_stop_workspace :Stopping workspace.
+2024-06-03 11:16:29,905 :INFO : test_start_workspace :Starting workspace.
+2024-06-03 11:16:29,926 :INFO : test_restart_workspace :Restarting workspace.
+2024-06-03 11:16:29,943 :INFO : test_share_workspace :Sharing workspace.
+2024-06-03 11:16:29,966 :INFO : test_delete_workspace :Deleting workspace.
+2024-06-03 11:16:29,971 :INFO : delete_workspace :No more workspaces to delete.
+2024-06-03 11:16:29,971 :INFO : delete_workspace :No more workspaces to delete.
+2024-06-03 11:16:29,974 :INFO : test_delete_workspace :No workspaces left to delete.
+2024-06-03 17:22:14,279 :INFO : driver_setup :Setting up the driver
+2024-06-03 17:22:33,500 :INFO : test_login :Starting login test.
+2024-06-03 17:22:33,626 :INFO : module :Clicked on 'Science Cloud' module.
+2024-06-03 17:22:43,645 :INFO : module :Switched to new window.
+2024-06-03 17:22:53,651 :INFO : module :Waiting for email input element to be located.
+2024-06-03 17:22:53,790 :INFO : module :Entered email address.
+2024-06-03 17:22:53,819 :INFO : module :Entered password.
+2024-06-03 17:22:55,980 :INFO : module :Clicked on 'Submit' button.
+2024-06-03 17:23:05,986 :INFO : module :Login successful.
+2024-06-03 17:23:05,987 :INFO : test_login :Login test completed.
+2024-06-03 17:23:06,000 :INFO : test_click_pipeline_tab_and_launchpad :Clicking pipeline tab.
+2024-06-03 17:23:10,125 :INFO : test_click_pipeline_tab_and_launchpad :Clicking launchpad tab.
+2024-06-03 17:23:15,207 :INFO : test_create_pipeline :Creating pipeline with config: {'selected_pipeline': 'AlphaFold2 Monomer New Dir. Struct', 'name': 'alphafold_jobrun', 'file_path': '/Users/nishantchauhan/Downloads/test-files/monomer-test/monomer-batch/monomer-short -2.fasta'}
+2024-06-03 17:23:31,502 :INFO : test_connect_workspace :Connecting to workspace.
+2024-06-03 17:23:33,039 :INFO : delete_workspace :No more workspaces to delete.
+2024-06-03 17:23:33,043 :INFO : test_stop_workspace :Stopping workspace.
+2024-06-03 17:23:34,153 :INFO : test_start_workspace :Starting workspace.
+2024-06-03 17:23:34,172 :INFO : test_restart_workspace :Restarting workspace.
+2024-06-03 17:23:34,188 :INFO : test_share_workspace :Sharing workspace.
+2024-06-03 17:23:34,206 :INFO : test_delete_workspace :Deleting workspace.
+2024-06-03 17:23:34,213 :INFO : delete_workspace :No more workspaces to delete.
+2024-06-03 17:23:34,213 :INFO : delete_workspace :No more workspaces to delete.
+2024-06-03 17:23:34,216 :INFO : test_delete_workspace :No workspaces left to delete.
+2024-06-03 17:25:10,623 :INFO : driver_setup :Setting up the driver
+2024-06-03 17:25:23,873 :INFO : test_login :Starting login test.
+2024-06-03 17:25:23,946 :INFO : module :Clicked on 'Science Cloud' module.
+2024-06-03 17:25:33,962 :INFO : module :Switched to new window.
+2024-06-03 17:25:43,968 :INFO : module :Waiting for email input element to be located.
+2024-06-03 17:25:44,086 :INFO : module :Entered email address.
+2024-06-03 17:25:44,110 :INFO : module :Entered password.
+2024-06-03 17:25:47,348 :INFO : module :Clicked on 'Submit' button.
+2024-06-03 17:25:57,354 :INFO : module :Login successful.
+2024-06-03 17:25:57,356 :INFO : test_login :Login test completed.
+2024-06-03 17:25:57,364 :INFO : test_click_pipeline_tab_and_launchpad :Clicking pipeline tab.
+2024-06-03 17:26:01,410 :INFO : test_click_pipeline_tab_and_launchpad :Clicking launchpad tab.
+2024-06-03 17:26:06,485 :INFO : test_create_pipeline :Creating pipeline with config: {'selected_pipeline': 'AlphaFold2 Monomer New Dir. Struct', 'name': 'alphafold_jobrun', 'file_path': '/Users/nishantchauhan/Downloads/test-files/monomer-test/monomer-batch/monomer-short -2.fasta'}
+2024-06-03 17:26:22,732 :ERROR : create_pipeline :An error occurred: Message: element not interactable
+  (Session info: chrome=125.0.6422.113)
+Stacktrace:
+0   chromedriver                        0x00000001024a24c8 chromedriver + 4302024
+1   chromedriver                        0x000000010249ae10 chromedriver + 4271632
+2   chromedriver                        0x00000001020cc000 chromedriver + 278528
+3   chromedriver                        0x00000001021090a4 chromedriver + 528548
+4   chromedriver                        0x0000000102107a4c chromedriver + 522828
+5   chromedriver                        0x000000010210485c chromedriver + 510044
+6   chromedriver                        0x0000000102146c5c chromedriver + 781404
+7   chromedriver                        0x0000000102103004 chromedriver + 503812
+8   chromedriver                        0x00000001021039ec chromedriver + 506348
+9   chromedriver                        0x000000010246a510 chromedriver + 4072720
+10  chromedriver                        0x000000010246efbc chromedriver + 4091836
+11  chromedriver                        0x0000000102451754 chromedriver + 3970900
+12  chromedriver                        0x000000010246f8a4 chromedriver + 4094116
+13  chromedriver                        0x00000001024446d4 chromedriver + 3917524
+14  chromedriver                        0x000000010248cb08 chromedriver + 4213512
+15  chromedriver                        0x000000010248cc84 chromedriver + 4213892
+16  chromedriver                        0x000000010249aa08 chromedriver + 4270600
+17  libsystem_pthread.dylib             0x0000000189493fa8 _pthread_start + 148
+18  libsystem_pthread.dylib             0x000000018948eda0 thread_start + 8
+
+2024-06-03 17:26:22,761 :INFO : test_connect_workspace :Connecting to workspace.
+2024-06-03 17:26:22,767 :INFO : delete_workspace :No more workspaces to delete.
+2024-06-03 17:26:22,768 :INFO : test_stop_workspace :Stopping workspace.
+2024-06-03 17:26:23,875 :INFO : test_start_workspace :Starting workspace.
+2024-06-03 17:26:23,900 :INFO : test_restart_workspace :Restarting workspace.
+2024-06-03 17:26:23,916 :INFO : test_share_workspace :Sharing workspace.
+2024-06-03 17:26:23,931 :INFO : test_delete_workspace :Deleting workspace.
+2024-06-03 17:26:23,935 :INFO : delete_workspace :No more workspaces to delete.
+2024-06-03 17:26:23,935 :INFO : delete_workspace :No more workspaces to delete.
+2024-06-03 17:26:23,938 :INFO : test_delete_workspace :No workspaces left to delete.
+2024-06-03 17:26:52,707 :INFO : driver_setup :Setting up the driver
+2024-06-03 17:27:05,571 :INFO : test_login :Starting login test.
+2024-06-03 17:27:05,650 :INFO : module :Clicked on 'Science Cloud' module.
+2024-06-03 17:27:15,698 :INFO : module :Switched to new window.
+2024-06-03 17:27:25,699 :INFO : module :Waiting for email input element to be located.
+2024-06-03 17:27:25,819 :INFO : module :Entered email address.
+2024-06-03 17:27:25,846 :INFO : module :Entered password.
+2024-06-03 17:27:29,239 :INFO : module :Clicked on 'Submit' button.
+2024-06-03 17:27:39,248 :INFO : module :Login successful.
+2024-06-03 17:27:39,250 :INFO : test_login :Login test completed.
+2024-06-03 17:27:39,264 :INFO : test_click_pipeline_tab_and_launchpad :Clicking pipeline tab.
+2024-06-03 17:27:43,309 :INFO : test_click_pipeline_tab_and_launchpad :Clicking launchpad tab.
+2024-06-03 17:27:48,393 :INFO : test_create_pipeline :Creating pipeline with config: {'selected_pipeline': 'AlphaFold2 Monomer New Dir. Struct', 'name': 'alphafold_jobrun', 'file_path': '/Users/nishantchauhan/Downloads/test-files/monomer-test/monomer-batch/monomer-short -2.fasta'}
+2024-06-03 17:28:09,677 :ERROR : create_pipeline :An error occurred: Message: element not interactable
+  (Session info: chrome=125.0.6422.113)
+Stacktrace:
+0   chromedriver                        0x00000001013e24c8 chromedriver + 4302024
+1   chromedriver                        0x00000001013dae10 chromedriver + 4271632
+2   chromedriver                        0x000000010100c000 chromedriver + 278528
+3   chromedriver                        0x00000001010490a4 chromedriver + 528548
+4   chromedriver                        0x0000000101047a4c chromedriver + 522828
+5   chromedriver                        0x000000010104485c chromedriver + 510044
+6   chromedriver                        0x0000000101086c5c chromedriver + 781404
+7   chromedriver                        0x0000000101043004 chromedriver + 503812
+8   chromedriver                        0x00000001010439ec chromedriver + 506348
+9   chromedriver                        0x00000001013aa510 chromedriver + 4072720
+10  chromedriver                        0x00000001013aefbc chromedriver + 4091836
+11  chromedriver                        0x0000000101391754 chromedriver + 3970900
+12  chromedriver                        0x00000001013af8a4 chromedriver + 4094116
+13  chromedriver                        0x00000001013846d4 chromedriver + 3917524
+14  chromedriver                        0x00000001013ccb08 chromedriver + 4213512
+15  chromedriver                        0x00000001013ccc84 chromedriver + 4213892
+16  chromedriver                        0x00000001013daa08 chromedriver + 4270600
+17  libsystem_pthread.dylib             0x0000000189493fa8 _pthread_start + 148
+18  libsystem_pthread.dylib             0x000000018948eda0 thread_start + 8
+
+2024-06-03 17:28:09,713 :INFO : test_connect_workspace :Connecting to workspace.
+2024-06-03 17:28:09,719 :INFO : delete_workspace :No more workspaces to delete.
+2024-06-03 17:28:09,720 :INFO : test_stop_workspace :Stopping workspace.
+2024-06-03 17:28:10,777 :INFO : test_start_workspace :Starting workspace.
+2024-06-03 17:28:10,797 :INFO : test_restart_workspace :Restarting workspace.
+2024-06-03 17:28:10,812 :INFO : test_share_workspace :Sharing workspace.
+2024-06-03 17:28:10,827 :INFO : test_delete_workspace :Deleting workspace.
+2024-06-03 17:28:10,831 :INFO : delete_workspace :No more workspaces to delete.
+2024-06-03 17:28:10,831 :INFO : delete_workspace :No more workspaces to delete.
+2024-06-03 17:28:10,834 :INFO : test_delete_workspace :No workspaces left to delete.
+2024-06-03 17:28:28,345 :INFO : driver_setup :Setting up the driver
+2024-06-03 17:28:41,211 :INFO : test_login :Starting login test.
+2024-06-03 17:28:41,282 :INFO : module :Clicked on 'Science Cloud' module.
+2024-06-03 17:28:51,306 :INFO : module :Switched to new window.
+2024-06-03 17:29:01,312 :INFO : module :Waiting for email input element to be located.
+2024-06-03 17:29:01,500 :INFO : module :Entered email address.
+2024-06-03 17:29:01,527 :INFO : module :Entered password.
+2024-06-03 17:29:04,609 :INFO : module :Clicked on 'Submit' button.
+2024-06-03 17:29:14,616 :INFO : module :Login successful.
+2024-06-03 17:29:14,617 :INFO : test_login :Login test completed.
+2024-06-03 17:29:14,624 :INFO : test_click_pipeline_tab_and_launchpad :Clicking pipeline tab.
+2024-06-03 17:29:18,686 :INFO : test_click_pipeline_tab_and_launchpad :Clicking launchpad tab.
+2024-06-03 17:29:23,771 :INFO : test_create_pipeline :Creating pipeline with config: {'selected_pipeline': 'AlphaFold2 Monomer New Dir. Struct', 'name': 'alphafold_jobrun', 'file_path': '/Users/nishantchauhan/Downloads/test-files/monomer-test/monomer-batch/monomer-short -2.fasta'}
+2024-06-03 17:29:39,994 :ERROR : create_pipeline :An error occurred: Message: element not interactable
+  (Session info: chrome=125.0.6422.113)
+Stacktrace:
+0   chromedriver                        0x00000001028824c8 chromedriver + 4302024
+1   chromedriver                        0x000000010287ae10 chromedriver + 4271632
+2   chromedriver                        0x00000001024ac000 chromedriver + 278528
+3   chromedriver                        0x00000001024e90a4 chromedriver + 528548
+4   chromedriver                        0x00000001024e7a4c chromedriver + 522828
+5   chromedriver                        0x00000001024e485c chromedriver + 510044
+6   chromedriver                        0x0000000102526c5c chromedriver + 781404
+7   chromedriver                        0x00000001024e3004 chromedriver + 503812
+8   chromedriver                        0x00000001024e39ec chromedriver + 506348
+9   chromedriver                        0x000000010284a510 chromedriver + 4072720
+10  chromedriver                        0x000000010284efbc chromedriver + 4091836
+11  chromedriver                        0x0000000102831754 chromedriver + 3970900
+12  chromedriver                        0x000000010284f8a4 chromedriver + 4094116
+13  chromedriver                        0x00000001028246d4 chromedriver + 3917524
+14  chromedriver                        0x000000010286cb08 chromedriver + 4213512
+15  chromedriver                        0x000000010286cc84 chromedriver + 4213892
+16  chromedriver                        0x000000010287aa08 chromedriver + 4270600
+17  libsystem_pthread.dylib             0x0000000189493fa8 _pthread_start + 148
+18  libsystem_pthread.dylib             0x000000018948eda0 thread_start + 8
+
+2024-06-03 17:29:40,020 :INFO : test_connect_workspace :Connecting to workspace.
+2024-06-03 17:29:40,026 :INFO : delete_workspace :No more workspaces to delete.
+2024-06-03 17:29:40,028 :INFO : test_stop_workspace :Stopping workspace.
+2024-06-03 17:29:41,103 :INFO : test_start_workspace :Starting workspace.
+2024-06-03 17:29:41,128 :INFO : test_restart_workspace :Restarting workspace.
+2024-06-03 17:29:41,145 :INFO : test_share_workspace :Sharing workspace.
+2024-06-03 17:29:41,161 :INFO : test_delete_workspace :Deleting workspace.
+2024-06-03 17:29:41,165 :INFO : delete_workspace :No more workspaces to delete.
+2024-06-03 17:29:41,165 :INFO : delete_workspace :No more workspaces to delete.
+2024-06-03 17:29:41,168 :INFO : test_delete_workspace :No workspaces left to delete.
+2024-06-03 17:32:42,955 :INFO : driver_setup :Setting up the driver
+2024-06-03 17:32:55,756 :INFO : test_login :Starting login test.
+2024-06-03 17:32:55,817 :INFO : module :Clicked on 'Science Cloud' module.
+2024-06-03 17:33:05,835 :INFO : module :Switched to new window.
+2024-06-03 17:33:15,841 :INFO : module :Waiting for email input element to be located.
+2024-06-03 17:33:15,956 :INFO : module :Entered email address.
+2024-06-03 17:33:15,980 :INFO : module :Entered password.
+2024-06-03 17:33:18,133 :INFO : module :Clicked on 'Submit' button.
+2024-06-03 17:33:28,140 :INFO : module :Login successful.
+2024-06-03 17:33:28,142 :INFO : test_login :Login test completed.
+2024-06-03 17:33:28,150 :INFO : test_click_pipeline_tab_and_launchpad :Clicking pipeline tab.
+2024-06-03 17:33:32,204 :INFO : test_click_pipeline_tab_and_launchpad :Clicking launchpad tab.
+2024-06-03 17:33:37,283 :INFO : test_create_pipeline :Creating pipeline with config: {'selected_pipeline': 'AlphaFold2 Monomer New Dir. Struct', 'name': 'alphafold_jobrun', 'file_path': '/Users/nishantchauhan/Downloads/test-files/monomer-test/monomer-batch/monomer-short -2.fasta'}
+2024-06-03 17:33:59,851 :INFO : test_connect_workspace :Connecting to workspace.
+2024-06-03 17:33:59,867 :INFO : delete_workspace :No more workspaces to delete.
+2024-06-03 17:33:59,870 :INFO : test_stop_workspace :Stopping workspace.
+2024-06-03 17:34:00,937 :INFO : test_start_workspace :Starting workspace.
+2024-06-03 17:34:00,957 :INFO : test_restart_workspace :Restarting workspace.
+2024-06-03 17:34:00,974 :INFO : test_share_workspace :Sharing workspace.
+2024-06-03 17:34:00,990 :INFO : test_delete_workspace :Deleting workspace.
+2024-06-03 17:34:00,993 :INFO : delete_workspace :No more workspaces to delete.
+2024-06-03 17:34:00,993 :INFO : delete_workspace :No more workspaces to delete.
+2024-06-03 17:34:00,996 :INFO : test_delete_workspace :No workspaces left to delete.
+2024-06-03 17:34:07,363 :INFO : driver_setup :Setting up the driver
+2024-06-03 17:34:20,170 :INFO : test_login :Starting login test.
+2024-06-03 17:34:20,225 :INFO : module :Clicked on 'Science Cloud' module.
+2024-06-03 17:34:30,243 :INFO : module :Switched to new window.
+2024-06-03 17:34:40,247 :INFO : module :Waiting for email input element to be located.
+2024-06-03 17:34:40,353 :INFO : module :Entered email address.
+2024-06-03 17:34:40,377 :INFO : module :Entered password.
+2024-06-03 17:34:42,280 :INFO : module :Clicked on 'Submit' button.
+2024-06-03 17:34:52,286 :INFO : module :Login successful.
+2024-06-03 17:34:52,289 :INFO : test_login :Login test completed.
+2024-06-03 17:34:52,300 :INFO : test_click_pipeline_tab_and_launchpad :Clicking pipeline tab.
+2024-06-03 17:34:56,353 :INFO : test_click_pipeline_tab_and_launchpad :Clicking launchpad tab.
+2024-06-03 17:35:01,438 :INFO : test_create_pipeline :Creating pipeline with config: {'selected_pipeline': 'AlphaFold2 Monomer New Dir. Struct', 'name': 'alphafold_jobrun', 'file_path': '/Users/nishantchauhan/Downloads/test-files/monomer-test/monomer-batch/monomer-short -2.fasta'}
+2024-06-03 17:35:18,979 :ERROR : create_pipeline :An error occurred: Message: element not interactable
+  (Session info: chrome=125.0.6422.113)
+Stacktrace:
+0   chromedriver                        0x0000000102e8e4c8 chromedriver + 4302024
+1   chromedriver                        0x0000000102e86e10 chromedriver + 4271632
+2   chromedriver                        0x0000000102ab8000 chromedriver + 278528
+3   chromedriver                        0x0000000102af50a4 chromedriver + 528548
+4   chromedriver                        0x0000000102af3a4c chromedriver + 522828
+5   chromedriver                        0x0000000102af085c chromedriver + 510044
+6   chromedriver                        0x0000000102b32c5c chromedriver + 781404
+7   chromedriver                        0x0000000102aef004 chromedriver + 503812
+8   chromedriver                        0x0000000102aef9ec chromedriver + 506348
+9   chromedriver                        0x0000000102e56510 chromedriver + 4072720
+10  chromedriver                        0x0000000102e5afbc chromedriver + 4091836
+11  chromedriver                        0x0000000102e3d754 chromedriver + 3970900
+12  chromedriver                        0x0000000102e5b8a4 chromedriver + 4094116
+13  chromedriver                        0x0000000102e306d4 chromedriver + 3917524
+14  chromedriver                        0x0000000102e78b08 chromedriver + 4213512
+15  chromedriver                        0x0000000102e78c84 chromedriver + 4213892
+16  chromedriver                        0x0000000102e86a08 chromedriver + 4270600
+17  libsystem_pthread.dylib             0x0000000189493fa8 _pthread_start + 148
+18  libsystem_pthread.dylib             0x000000018948eda0 thread_start + 8
+
+2024-06-03 17:35:19,021 :INFO : test_connect_workspace :Connecting to workspace.
+2024-06-03 17:35:19,028 :INFO : delete_workspace :No more workspaces to delete.
+2024-06-03 17:35:19,030 :INFO : test_stop_workspace :Stopping workspace.
+2024-06-03 17:35:20,132 :INFO : test_start_workspace :Starting workspace.
+2024-06-03 17:35:20,155 :INFO : test_restart_workspace :Restarting workspace.
+2024-06-03 17:35:20,172 :INFO : test_share_workspace :Sharing workspace.
+2024-06-03 17:35:20,187 :INFO : test_delete_workspace :Deleting workspace.
+2024-06-03 17:35:20,191 :INFO : delete_workspace :No more workspaces to delete.
+2024-06-03 17:35:20,191 :INFO : delete_workspace :No more workspaces to delete.
+2024-06-03 17:35:20,194 :INFO : test_delete_workspace :No workspaces left to delete.
+2024-06-03 17:45:40,689 :INFO : driver_setup :Setting up the driver
+2024-06-03 17:45:54,367 :INFO : test_login :Starting login test.
+2024-06-03 17:45:54,453 :INFO : module :Clicked on 'Science Cloud' module.
+2024-06-03 17:46:04,472 :INFO : module :Switched to new window.
+2024-06-03 17:46:14,477 :INFO : module :Waiting for email input element to be located.
+2024-06-03 17:46:14,614 :INFO : module :Entered email address.
+2024-06-03 17:46:14,638 :INFO : module :Entered password.
+2024-06-03 17:46:17,199 :INFO : module :Clicked on 'Submit' button.
+2024-06-03 17:46:27,201 :INFO : module :Login successful.
+2024-06-03 17:46:27,202 :INFO : test_login :Login test completed.
+2024-06-03 17:46:27,213 :INFO : test_click_pipeline_tab_and_launchpad :Clicking pipeline tab.
+2024-06-03 17:46:31,288 :INFO : test_click_pipeline_tab_and_launchpad :Clicking launchpad tab.
+2024-06-03 17:46:36,375 :INFO : test_create_pipeline :Creating pipeline with config: {'selected_pipeline': 'AlphaFold2 Monomer New Dir. Struct', 'name': 'alphafold_jobrun', 'file_path': '/Users/nishantchauhan/Downloads/test-files/monomer-test/monomer-batch/monomer-short -2.fasta'}
+2024-06-03 17:47:03,780 :INFO : test_connect_workspace :Connecting to workspace.
+2024-06-03 17:47:03,801 :INFO : delete_workspace :No more workspaces to delete.
+2024-06-03 17:47:03,804 :INFO : test_stop_workspace :Stopping workspace.
+2024-06-03 17:47:04,942 :INFO : test_start_workspace :Starting workspace.
+2024-06-03 17:47:04,961 :INFO : test_restart_workspace :Restarting workspace.
+2024-06-03 17:47:04,977 :INFO : test_share_workspace :Sharing workspace.
+2024-06-03 17:47:04,993 :INFO : test_delete_workspace :Deleting workspace.
+2024-06-03 17:47:04,997 :INFO : delete_workspace :No more workspaces to delete.
+2024-06-03 17:47:04,997 :INFO : delete_workspace :No more workspaces to delete.
+2024-06-03 17:47:05,000 :INFO : test_delete_workspace :No workspaces left to delete.
+2024-06-03 17:48:35,267 :INFO : driver_setup :Setting up the driver
+2024-06-03 17:48:48,527 :INFO : test_login :Starting login test.
+2024-06-03 17:48:48,630 :INFO : module :Clicked on 'Science Cloud' module.
+2024-06-03 17:48:58,642 :INFO : module :Switched to new window.
+2024-06-03 17:49:08,645 :INFO : module :Waiting for email input element to be located.
+2024-06-03 17:49:12,386 :INFO : module :Entered email address.
+2024-06-03 17:49:12,427 :INFO : module :Entered password.
+2024-06-03 17:49:14,622 :INFO : module :Clicked on 'Submit' button.
+2024-06-03 17:49:24,629 :INFO : module :Login successful.
+2024-06-03 17:49:24,631 :INFO : test_login :Login test completed.
+2024-06-03 17:49:24,644 :INFO : test_click_pipeline_tab_and_launchpad :Clicking pipeline tab.
+2024-06-03 17:49:28,754 :INFO : test_click_pipeline_tab_and_launchpad :Clicking launchpad tab.
+2024-06-03 17:49:33,835 :INFO : test_create_pipeline :Creating pipeline with config: {'selected_pipeline': 'AlphaFold2 Monomer New Dir. Struct', 'name': 'alphafold_jobrun', 'file_path': '/Users/nishantchauhan/Downloads/test-files/monomer-test/monomer-batch/monomer-short -2.fasta'}
+2024-06-03 17:50:01,198 :INFO : test_connect_workspace :Connecting to workspace.
+2024-06-03 17:50:01,217 :INFO : delete_workspace :No more workspaces to delete.
+2024-06-03 17:50:01,219 :INFO : test_stop_workspace :Stopping workspace.
+2024-06-03 17:50:02,356 :INFO : test_start_workspace :Starting workspace.
+2024-06-03 17:50:02,375 :INFO : test_restart_workspace :Restarting workspace.
+2024-06-03 17:50:02,390 :INFO : test_share_workspace :Sharing workspace.
+2024-06-03 17:50:02,404 :INFO : test_delete_workspace :Deleting workspace.
+2024-06-03 17:50:02,409 :INFO : delete_workspace :No more workspaces to delete.
+2024-06-03 17:50:02,409 :INFO : delete_workspace :No more workspaces to delete.
+2024-06-03 17:50:02,412 :INFO : test_delete_workspace :No workspaces left to delete.
+2024-06-03 17:50:37,408 :INFO : driver_setup :Setting up the driver
+2024-06-03 17:50:50,739 :INFO : test_login :Starting login test.
+2024-06-03 17:50:50,802 :INFO : module :Clicked on 'Science Cloud' module.
+2024-06-03 17:51:00,820 :INFO : module :Switched to new window.
+2024-06-03 17:51:10,826 :INFO : module :Waiting for email input element to be located.
+2024-06-03 17:51:17,964 :INFO : module :Entered email address.
+2024-06-03 17:51:17,989 :INFO : module :Entered password.
+2024-06-03 17:51:20,082 :INFO : module :Clicked on 'Submit' button.
+2024-06-03 17:51:30,091 :INFO : module :Login successful.
+2024-06-03 17:51:30,092 :INFO : test_login :Login test completed.
+2024-06-03 17:51:30,103 :INFO : test_click_pipeline_tab_and_launchpad :Clicking pipeline tab.
+2024-06-03 17:51:34,195 :INFO : test_click_pipeline_tab_and_launchpad :Clicking launchpad tab.
+2024-06-03 17:51:39,281 :INFO : test_create_pipeline :Creating pipeline with config: {'selected_pipeline': 'AlphaFold2 Monomer New Dir. Struct', 'name': 'alphafold_jobrun', 'file_path': '/Users/nishantchauhan/Downloads/test-files/monomer-test/monomer-batch/monomer-short -2.fasta'}
+2024-06-03 17:52:06,698 :INFO : test_connect_workspace :Connecting to workspace.
+2024-06-03 17:52:06,715 :INFO : delete_workspace :No more workspaces to delete.
+2024-06-03 17:52:06,718 :INFO : test_stop_workspace :Stopping workspace.
+2024-06-03 17:52:07,852 :INFO : test_start_workspace :Starting workspace.
+2024-06-03 17:52:07,872 :INFO : test_restart_workspace :Restarting workspace.
+2024-06-03 17:52:07,889 :INFO : test_share_workspace :Sharing workspace.
+2024-06-03 17:52:07,907 :INFO : test_delete_workspace :Deleting workspace.
+2024-06-03 17:52:07,913 :INFO : delete_workspace :No more workspaces to delete.
+2024-06-03 17:52:07,913 :INFO : delete_workspace :No more workspaces to delete.
+2024-06-03 17:52:07,916 :INFO : test_delete_workspace :No workspaces left to delete.
+2024-06-03 17:52:14,611 :INFO : driver_setup :Setting up the driver
+2024-06-03 17:52:27,392 :INFO : test_login :Starting login test.
+2024-06-03 17:52:27,439 :INFO : module :Clicked on 'Science Cloud' module.
+2024-06-03 17:52:37,454 :INFO : module :Switched to new window.
+2024-06-03 17:52:47,458 :INFO : module :Waiting for email input element to be located.
+2024-06-03 17:52:47,564 :INFO : module :Entered email address.
+2024-06-03 17:52:47,589 :INFO : module :Entered password.
+2024-06-03 17:52:49,891 :INFO : module :Clicked on 'Submit' button.
+2024-06-03 17:52:59,903 :INFO : module :Login successful.
+2024-06-03 17:52:59,909 :INFO : test_login :Login test completed.
+2024-06-03 17:52:59,918 :INFO : test_click_pipeline_tab_and_launchpad :Clicking pipeline tab.
+2024-06-03 17:53:04,073 :INFO : test_click_pipeline_tab_and_launchpad :Clicking launchpad tab.
+2024-06-03 17:53:09,175 :INFO : test_create_pipeline :Creating pipeline with config: {'selected_pipeline': 'AlphaFold2 Monomer New Dir. Struct', 'name': 'alphafold_jobrun', 'file_path': '/Users/nishantchauhan/Downloads/test-files/monomer-test/monomer-batch/monomer-short -2.fasta'}
+2024-06-03 17:53:36,563 :INFO : test_connect_workspace :Connecting to workspace.
+2024-06-03 17:53:36,581 :INFO : delete_workspace :No more workspaces to delete.
+2024-06-03 17:53:36,584 :INFO : test_stop_workspace :Stopping workspace.
+2024-06-03 17:53:37,724 :INFO : test_start_workspace :Starting workspace.
+2024-06-03 17:53:37,746 :INFO : test_restart_workspace :Restarting workspace.
+2024-06-03 17:53:37,763 :INFO : test_share_workspace :Sharing workspace.
+2024-06-03 17:53:37,779 :INFO : test_delete_workspace :Deleting workspace.
+2024-06-03 17:53:37,784 :INFO : delete_workspace :No more workspaces to delete.
+2024-06-03 17:53:37,784 :INFO : delete_workspace :No more workspaces to delete.
+2024-06-03 17:53:37,787 :INFO : test_delete_workspace :No workspaces left to delete.
+2024-06-03 18:29:27,042 :INFO : driver_setup :Setting up the driver
+2024-06-03 18:29:40,944 :INFO : test_login :Starting login test.
+2024-06-03 18:29:41,023 :INFO : module :Clicked on 'Science Cloud' module.
+2024-06-03 18:29:51,042 :INFO : module :Switched to new window.
+2024-06-03 18:30:01,049 :INFO : module :Waiting for email input element to be located.
+2024-06-03 18:30:01,197 :INFO : module :Entered email address.
+2024-06-03 18:30:01,236 :INFO : module :Entered password.
+2024-06-03 18:30:03,399 :INFO : module :Clicked on 'Submit' button.
+2024-06-03 18:30:13,404 :INFO : module :Login successful.
+2024-06-03 18:30:13,405 :INFO : test_login :Login test completed.
+2024-06-03 18:30:13,420 :INFO : test_click_pipeline_tab_and_launchpad :Clicking pipeline tab.
+2024-06-03 18:30:17,469 :INFO : test_click_pipeline_tab_and_launchpad :Clicking launchpad tab.
+2024-06-03 18:30:22,554 :INFO : test_create_pipeline :Creating pipeline with config: {'selected_pipeline': 'AlphaFold2 Monomer New Dir. Struct', 'name': 'alphafold_jobrun', 'file_path': '/Users/nishantchauhan/Documents/test-files 2/monomer-batch/monomer-short -2.fasta'}
+2024-06-03 18:30:39,850 :ERROR : create_pipeline :An error occurred: Message: invalid argument: File not found : /Users/nishantchauhan/Documents/test-files 2/monomer-batch/monomer-short -2.fasta
+  (Session info: chrome=125.0.6422.113)
+Stacktrace:
+0   chromedriver                        0x000000010250e4c8 chromedriver + 4302024
+1   chromedriver                        0x0000000102506e10 chromedriver + 4271632
+2   chromedriver                        0x000000010213819c chromedriver + 278940
+3   chromedriver                        0x0000000102173dc4 chromedriver + 523716
+4   chromedriver                        0x000000010217085c chromedriver + 510044
+5   chromedriver                        0x00000001021b2c5c chromedriver + 781404
+6   chromedriver                        0x000000010216f004 chromedriver + 503812
+7   chromedriver                        0x000000010216f9ec chromedriver + 506348
+8   chromedriver                        0x00000001024d6510 chromedriver + 4072720
+9   chromedriver                        0x00000001024dafbc chromedriver + 4091836
+10  chromedriver                        0x00000001024bd754 chromedriver + 3970900
+11  chromedriver                        0x00000001024db8a4 chromedriver + 4094116
+12  chromedriver                        0x00000001024b06d4 chromedriver + 3917524
+13  chromedriver                        0x00000001024f8b08 chromedriver + 4213512
+14  chromedriver                        0x00000001024f8c84 chromedriver + 4213892
+15  chromedriver                        0x0000000102506a08 chromedriver + 4270600
+16  libsystem_pthread.dylib             0x0000000189493fa8 _pthread_start + 148
+17  libsystem_pthread.dylib             0x000000018948eda0 thread_start + 8
+
+2024-06-03 18:30:39,891 :INFO : test_connect_workspace :Connecting to workspace.
+2024-06-03 18:30:39,897 :INFO : delete_workspace :No more workspaces to delete.
+2024-06-03 18:30:39,899 :INFO : test_stop_workspace :Stopping workspace.
+2024-06-03 18:30:40,988 :INFO : test_start_workspace :Starting workspace.
+2024-06-03 18:30:41,018 :INFO : test_restart_workspace :Restarting workspace.
+2024-06-03 18:30:41,037 :INFO : test_share_workspace :Sharing workspace.
+2024-06-03 18:30:41,053 :INFO : test_delete_workspace :Deleting workspace.
+2024-06-03 18:30:41,057 :INFO : delete_workspace :No more workspaces to delete.
+2024-06-03 18:30:41,057 :INFO : delete_workspace :No more workspaces to delete.
+2024-06-03 18:30:41,061 :INFO : test_delete_workspace :No workspaces left to delete.
+2024-06-03 18:31:11,383 :INFO : driver_setup :Setting up the driver
+2024-06-03 18:31:24,583 :INFO : test_login :Starting login test.
+2024-06-03 18:31:24,655 :INFO : module :Clicked on 'Science Cloud' module.
+2024-06-03 18:31:34,691 :INFO : module :Switched to new window.
+2024-06-03 18:31:44,692 :INFO : module :Waiting for email input element to be located.
+2024-06-03 18:31:44,804 :INFO : module :Entered email address.
+2024-06-03 18:31:44,828 :INFO : module :Entered password.
+2024-06-03 18:31:47,721 :INFO : module :Clicked on 'Submit' button.
+2024-06-03 18:31:57,726 :INFO : module :Login successful.
+2024-06-03 18:31:57,727 :INFO : test_login :Login test completed.
+2024-06-03 18:31:57,735 :INFO : test_click_pipeline_tab_and_launchpad :Clicking pipeline tab.
+2024-06-03 18:32:01,807 :INFO : test_click_pipeline_tab_and_launchpad :Clicking launchpad tab.
+2024-06-03 18:32:06,898 :INFO : test_create_pipeline :Creating pipeline with config: {'selected_pipeline': 'AlphaFold2 Monomer New Dir. Struct', 'name': 'alphafold_jobrun', 'file_path': '/Users/nishantchauhan/Documents/test-files 2/monomer-batch/monomer-short -2.fasta'}
+2024-06-03 18:32:28,207 :ERROR : create_pipeline :An error occurred: Message: invalid argument: File not found : /Users/nishantchauhan/Documents/test-files 2/monomer-batch/monomer-short -2.fasta
+  (Session info: chrome=125.0.6422.113)
+Stacktrace:
+0   chromedriver                        0x000000010277e4c8 chromedriver + 4302024
+1   chromedriver                        0x0000000102776e10 chromedriver + 4271632
+2   chromedriver                        0x00000001023a819c chromedriver + 278940
+3   chromedriver                        0x00000001023e3dc4 chromedriver + 523716
+4   chromedriver                        0x00000001023e085c chromedriver + 510044
+5   chromedriver                        0x0000000102422c5c chromedriver + 781404
+6   chromedriver                        0x00000001023df004 chromedriver + 503812
+7   chromedriver                        0x00000001023df9ec chromedriver + 506348
+8   chromedriver                        0x0000000102746510 chromedriver + 4072720
+9   chromedriver                        0x000000010274afbc chromedriver + 4091836
+10  chromedriver                        0x000000010272d754 chromedriver + 3970900
+11  chromedriver                        0x000000010274b8a4 chromedriver + 4094116
+12  chromedriver                        0x00000001027206d4 chromedriver + 3917524
+13  chromedriver                        0x0000000102768b08 chromedriver + 4213512
+14  chromedriver                        0x0000000102768c84 chromedriver + 4213892
+15  chromedriver                        0x0000000102776a08 chromedriver + 4270600
+16  libsystem_pthread.dylib             0x0000000189493fa8 _pthread_start + 148
+17  libsystem_pthread.dylib             0x000000018948eda0 thread_start + 8
+
+2024-06-03 18:32:28,247 :INFO : test_connect_workspace :Connecting to workspace.
+2024-06-03 18:32:28,255 :INFO : delete_workspace :No more workspaces to delete.
+2024-06-03 18:32:28,257 :INFO : test_stop_workspace :Stopping workspace.
+2024-06-03 18:32:29,329 :INFO : test_start_workspace :Starting workspace.
+2024-06-03 18:32:29,352 :INFO : test_restart_workspace :Restarting workspace.
+2024-06-03 18:32:29,369 :INFO : test_share_workspace :Sharing workspace.
+2024-06-03 18:32:29,384 :INFO : test_delete_workspace :Deleting workspace.
+2024-06-03 18:32:29,389 :INFO : delete_workspace :No more workspaces to delete.
+2024-06-03 18:32:29,389 :INFO : delete_workspace :No more workspaces to delete.
+2024-06-03 18:32:29,392 :INFO : test_delete_workspace :No workspaces left to delete.
+2024-06-03 18:35:36,763 :INFO : driver_setup :Setting up the driver
+2024-06-03 18:35:52,038 :INFO : test_login :Starting login test.
+2024-06-03 18:35:52,165 :INFO : module :Clicked on 'Science Cloud' module.
+2024-06-03 18:36:02,202 :INFO : module :Switched to new window.
+2024-06-03 18:36:12,229 :INFO : module :Waiting for email input element to be located.
+2024-06-03 18:36:12,421 :INFO : module :Entered email address.
+2024-06-03 18:36:12,446 :INFO : module :Entered password.
+2024-06-03 18:36:15,772 :INFO : module :Clicked on 'Submit' button.
+2024-06-03 18:36:25,778 :INFO : module :Login successful.
+2024-06-03 18:36:25,780 :INFO : test_login :Login test completed.
+2024-06-03 18:36:25,800 :INFO : test_click_pipeline_tab_and_launchpad :Clicking pipeline tab.
+2024-06-03 18:36:29,853 :INFO : test_click_pipeline_tab_and_launchpad :Clicking launchpad tab.
+2024-06-03 18:36:34,965 :INFO : test_create_pipeline :Creating pipeline with config: {'selected_pipeline': 'AlphaFold2 Monomer New Dir. Struct', 'name': 'alphafold_jobrun', 'file_path': '/Users/nishantchauhan/Documents/test-files 2/monomer-batch/monomer-short -2.fasta'}
+2024-06-03 18:36:53,253 :ERROR : create_pipeline :An error occurred: Message: invalid argument: File not found : /Users/nishantchauhan/Documents/test-files 2/monomer-batch/monomer-short -2.fasta
+  (Session info: chrome=125.0.6422.113)
+Stacktrace:
+0   chromedriver                        0x0000000100a6a4c8 chromedriver + 4302024
+1   chromedriver                        0x0000000100a62e10 chromedriver + 4271632
+2   chromedriver                        0x000000010069419c chromedriver + 278940
+3   chromedriver                        0x00000001006cfdc4 chromedriver + 523716
+4   chromedriver                        0x00000001006cc85c chromedriver + 510044
+5   chromedriver                        0x000000010070ec5c chromedriver + 781404
+6   chromedriver                        0x00000001006cb004 chromedriver + 503812
+7   chromedriver                        0x00000001006cb9ec chromedriver + 506348
+8   chromedriver                        0x0000000100a32510 chromedriver + 4072720
+9   chromedriver                        0x0000000100a36fbc chromedriver + 4091836
+10  chromedriver                        0x0000000100a19754 chromedriver + 3970900
+11  chromedriver                        0x0000000100a378a4 chromedriver + 4094116
+12  chromedriver                        0x0000000100a0c6d4 chromedriver + 3917524
+13  chromedriver                        0x0000000100a54b08 chromedriver + 4213512
+14  chromedriver                        0x0000000100a54c84 chromedriver + 4213892
+15  chromedriver                        0x0000000100a62a08 chromedriver + 4270600
+16  libsystem_pthread.dylib             0x0000000189493fa8 _pthread_start + 148
+17  libsystem_pthread.dylib             0x000000018948eda0 thread_start + 8
+
+2024-06-03 18:36:53,318 :INFO : test_connect_workspace :Connecting to workspace.
+2024-06-03 18:36:53,325 :INFO : delete_workspace :No more workspaces to delete.
+2024-06-03 18:36:53,326 :INFO : test_stop_workspace :Stopping workspace.
+2024-06-03 18:36:54,389 :INFO : test_start_workspace :Starting workspace.
+2024-06-03 18:36:54,411 :INFO : test_restart_workspace :Restarting workspace.
+2024-06-03 18:36:54,428 :INFO : test_share_workspace :Sharing workspace.
+2024-06-03 18:36:54,444 :INFO : test_delete_workspace :Deleting workspace.
+2024-06-03 18:36:54,448 :INFO : delete_workspace :No more workspaces to delete.
+2024-06-03 18:36:54,448 :INFO : delete_workspace :No more workspaces to delete.
+2024-06-03 18:36:54,450 :INFO : test_delete_workspace :No workspaces left to delete.
+2024-06-03 18:38:28,859 :INFO : driver_setup :Setting up the driver
+2024-06-03 18:38:42,572 :INFO : test_login :Starting login test.
+2024-06-03 18:38:42,641 :INFO : module :Clicked on 'Science Cloud' module.
+2024-06-03 18:38:52,653 :INFO : module :Switched to new window.
+2024-06-03 18:39:02,659 :INFO : module :Waiting for email input element to be located.
+2024-06-03 18:39:02,802 :INFO : module :Entered email address.
+2024-06-03 18:39:02,843 :INFO : module :Entered password.
+2024-06-03 18:39:05,258 :INFO : module :Clicked on 'Submit' button.
+2024-06-03 18:39:15,265 :INFO : module :Login successful.
+2024-06-03 18:39:15,267 :INFO : test_login :Login test completed.
+2024-06-03 18:39:15,280 :INFO : test_click_pipeline_tab_and_launchpad :Clicking pipeline tab.
+2024-06-03 18:39:19,382 :INFO : test_click_pipeline_tab_and_launchpad :Clicking launchpad tab.
+2024-06-03 18:39:24,496 :INFO : test_create_pipeline :Creating pipeline with config: {'selected_pipeline': 'AlphaFold2 Monomer New Dir. Struct', 'name': 'alphafold_jobrun', 'file_path': 'file_path = r"/Users/nishantchauhan/Documents/test-files 2/monomer-batch/monomer-short -2.fasta"\n'}
+2024-06-03 18:39:43,865 :ERROR : create_pipeline :An error occurred: Message: invalid argument: File not found : file_path = r"/Users/nishantchauhan/Documents/test-files 2/monomer-batch/monomer-short -2.fasta"
+  (Session info: chrome=125.0.6422.113)
+Stacktrace:
+0   chromedriver                        0x0000000100dba4c8 chromedriver + 4302024
+1   chromedriver                        0x0000000100db2e10 chromedriver + 4271632
+2   chromedriver                        0x00000001009e419c chromedriver + 278940
+3   chromedriver                        0x0000000100a1fdc4 chromedriver + 523716
+4   chromedriver                        0x0000000100a1c85c chromedriver + 510044
+5   chromedriver                        0x0000000100a5ec5c chromedriver + 781404
+6   chromedriver                        0x0000000100a1b004 chromedriver + 503812
+7   chromedriver                        0x0000000100a1b9ec chromedriver + 506348
+8   chromedriver                        0x0000000100d82510 chromedriver + 4072720
+9   chromedriver                        0x0000000100d86fbc chromedriver + 4091836
+10  chromedriver                        0x0000000100d69754 chromedriver + 3970900
+11  chromedriver                        0x0000000100d878a4 chromedriver + 4094116
+12  chromedriver                        0x0000000100d5c6d4 chromedriver + 3917524
+13  chromedriver                        0x0000000100da4b08 chromedriver + 4213512
+14  chromedriver                        0x0000000100da4c84 chromedriver + 4213892
+15  chromedriver                        0x0000000100db2a08 chromedriver + 4270600
+16  libsystem_pthread.dylib             0x0000000189493fa8 _pthread_start + 148
+17  libsystem_pthread.dylib             0x000000018948eda0 thread_start + 8
+
+2024-06-03 18:39:43,910 :INFO : test_connect_workspace :Connecting to workspace.
+2024-06-03 18:39:43,917 :INFO : delete_workspace :No more workspaces to delete.
+2024-06-03 18:39:43,918 :INFO : test_stop_workspace :Stopping workspace.
+2024-06-03 18:39:44,996 :INFO : test_start_workspace :Starting workspace.
+2024-06-03 18:39:45,021 :INFO : test_restart_workspace :Restarting workspace.
+2024-06-03 18:39:45,039 :INFO : test_share_workspace :Sharing workspace.
+2024-06-03 18:39:45,054 :INFO : test_delete_workspace :Deleting workspace.
+2024-06-03 18:39:45,058 :INFO : delete_workspace :No more workspaces to delete.
+2024-06-03 18:39:45,058 :INFO : delete_workspace :No more workspaces to delete.
+2024-06-03 18:39:45,061 :INFO : test_delete_workspace :No workspaces left to delete.
+2024-06-03 18:42:37,594 :INFO : driver_setup :Setting up the driver
+2024-06-03 18:42:51,279 :INFO : test_login :Starting login test.
+2024-06-03 18:42:51,353 :INFO : module :Clicked on 'Science Cloud' module.
+2024-06-03 18:43:01,372 :INFO : module :Switched to new window.
+2024-06-03 18:43:11,379 :INFO : module :Waiting for email input element to be located.
+2024-06-03 18:43:11,510 :INFO : module :Entered email address.
+2024-06-03 18:43:11,537 :INFO : module :Entered password.
+2024-06-03 18:43:13,705 :INFO : module :Clicked on 'Submit' button.
+2024-06-03 18:43:23,707 :INFO : module :Login successful.
+2024-06-03 18:43:23,709 :INFO : test_login :Login test completed.
+2024-06-03 18:43:23,721 :INFO : test_click_pipeline_tab_and_launchpad :Clicking pipeline tab.
+2024-06-03 18:43:27,772 :INFO : test_click_pipeline_tab_and_launchpad :Clicking launchpad tab.
+2024-06-03 18:43:32,856 :INFO : test_create_pipeline :Creating pipeline with config: {'selected_pipeline': 'AlphaFold2 Monomer New Dir. Struct', 'name': 'alphafold_jobrun', 'file_path': 'r"/Users/nishantchauhan/Documents/test-files 2/monomer-batch/monomer-short -2.fasta"\n'}
+2024-06-03 18:43:52,213 :ERROR : create_pipeline :An error occurred: Message: invalid argument: File not found : r"/Users/nishantchauhan/Documents/test-files 2/monomer-batch/monomer-short -2.fasta"
+  (Session info: chrome=125.0.6422.113)
+Stacktrace:
+0   chromedriver                        0x0000000104a924c8 chromedriver + 4302024
+1   chromedriver                        0x0000000104a8ae10 chromedriver + 4271632
+2   chromedriver                        0x00000001046bc19c chromedriver + 278940
+3   chromedriver                        0x00000001046f7dc4 chromedriver + 523716
+4   chromedriver                        0x00000001046f485c chromedriver + 510044
+5   chromedriver                        0x0000000104736c5c chromedriver + 781404
+6   chromedriver                        0x00000001046f3004 chromedriver + 503812
+7   chromedriver                        0x00000001046f39ec chromedriver + 506348
+8   chromedriver                        0x0000000104a5a510 chromedriver + 4072720
+9   chromedriver                        0x0000000104a5efbc chromedriver + 4091836
+10  chromedriver                        0x0000000104a41754 chromedriver + 3970900
+11  chromedriver                        0x0000000104a5f8a4 chromedriver + 4094116
+12  chromedriver                        0x0000000104a346d4 chromedriver + 3917524
+13  chromedriver                        0x0000000104a7cb08 chromedriver + 4213512
+14  chromedriver                        0x0000000104a7cc84 chromedriver + 4213892
+15  chromedriver                        0x0000000104a8aa08 chromedriver + 4270600
+16  libsystem_pthread.dylib             0x0000000189493fa8 _pthread_start + 148
+17  libsystem_pthread.dylib             0x000000018948eda0 thread_start + 8
+
+2024-06-03 18:43:52,263 :INFO : test_connect_workspace :Connecting to workspace.
+2024-06-03 18:43:52,270 :INFO : delete_workspace :No more workspaces to delete.
+2024-06-03 18:43:52,271 :INFO : test_stop_workspace :Stopping workspace.
+2024-06-03 18:43:53,333 :INFO : test_start_workspace :Starting workspace.
+2024-06-03 18:43:53,353 :INFO : test_restart_workspace :Restarting workspace.
+2024-06-03 18:43:53,368 :INFO : test_share_workspace :Sharing workspace.
+2024-06-03 18:43:53,383 :INFO : test_delete_workspace :Deleting workspace.
+2024-06-03 18:43:53,387 :INFO : delete_workspace :No more workspaces to delete.
+2024-06-03 18:43:53,387 :INFO : delete_workspace :No more workspaces to delete.
+2024-06-03 18:43:53,389 :INFO : test_delete_workspace :No workspaces left to delete.
+2024-06-03 18:47:47,422 :INFO : driver_setup :Setting up the driver
+2024-06-03 18:48:00,590 :INFO : test_login :Starting login test.
+2024-06-03 18:48:00,666 :INFO : module :Clicked on 'Science Cloud' module.
+2024-06-03 18:48:10,676 :INFO : module :Switched to new window.
+2024-06-03 18:48:20,679 :INFO : module :Waiting for email input element to be located.
+2024-06-03 18:48:20,798 :INFO : module :Entered email address.
+2024-06-03 18:48:20,823 :INFO : module :Entered password.
+2024-06-03 18:48:25,273 :INFO : module :Clicked on 'Submit' button.
+2024-06-03 18:48:35,280 :INFO : module :Login successful.
+2024-06-03 18:48:35,282 :INFO : test_login :Login test completed.
+2024-06-03 18:48:35,294 :INFO : test_click_pipeline_tab_and_launchpad :Clicking pipeline tab.
+2024-06-03 18:48:39,363 :INFO : test_click_pipeline_tab_and_launchpad :Clicking launchpad tab.
+2024-06-03 18:48:44,451 :INFO : test_create_pipeline :Creating pipeline with config: {'selected_pipeline': 'AlphaFold2 Monomer New Dir. Struct', 'name': 'alphafold_jobrun', 'file_path': '/Users/nishantchauhan/Downloads/test-files/multimer-test/multimer-batch/multimer-1.fasta'}
+2024-06-03 18:49:02,803 :INFO : create_pipeline :File input element found: <selenium.webdriver.remote.webelement.WebElement (session="37e9be5954bb473e6e260ed9a7ddb737", element="f.911A7A8EF918C3122A749E530A82C1B6.d.FBEA788088170CE3D78A1B4352E9803F.e.87")>
+2024-06-03 18:49:02,803 :INFO : create_pipeline :Attempting to upload file: /Users/nishantchauhan/Downloads/test-files/multimer-test/multimer-batch/multimer-1.fasta
+2024-06-03 18:49:07,821 :INFO : test_connect_workspace :Connecting to workspace.
+2024-06-03 18:49:07,840 :INFO : delete_workspace :No more workspaces to delete.
+2024-06-03 18:49:07,843 :INFO : test_stop_workspace :Stopping workspace.
+2024-06-03 18:49:08,970 :INFO : test_start_workspace :Starting workspace.
+2024-06-03 18:49:08,989 :INFO : test_restart_workspace :Restarting workspace.
+2024-06-03 18:49:09,005 :INFO : test_share_workspace :Sharing workspace.
+2024-06-03 18:49:09,022 :INFO : test_delete_workspace :Deleting workspace.
+2024-06-03 18:49:09,027 :INFO : delete_workspace :No more workspaces to delete.
+2024-06-03 18:49:09,027 :INFO : delete_workspace :No more workspaces to delete.
+2024-06-03 18:49:09,030 :INFO : test_delete_workspace :No workspaces left to delete.
+2024-06-03 18:52:12,878 :INFO : driver_setup :Setting up the driver
+2024-06-03 18:52:25,864 :INFO : test_login :Starting login test.
+2024-06-03 18:52:25,948 :INFO : module :Clicked on 'Science Cloud' module.
+2024-06-03 18:52:35,966 :INFO : module :Switched to new window.
+2024-06-03 18:52:45,972 :INFO : module :Waiting for email input element to be located.
+2024-06-03 18:52:46,072 :INFO : module :Entered email address.
+2024-06-03 18:52:46,097 :INFO : module :Entered password.
+2024-06-03 18:52:48,099 :INFO : module :Clicked on 'Submit' button.
+2024-06-03 18:52:58,106 :INFO : module :Login successful.
+2024-06-03 18:52:58,107 :INFO : test_login :Login test completed.
+2024-06-03 18:52:58,117 :INFO : test_click_pipeline_tab_and_launchpad :Clicking pipeline tab.
+2024-06-03 18:53:02,186 :INFO : test_click_pipeline_tab_and_launchpad :Clicking launchpad tab.
+2024-06-03 18:53:07,280 :INFO : test_create_pipeline :Creating pipeline with config: {'selected_pipeline': 'AlphaFold2 Monomer New Dir. Struct', 'name': 'alphafold_jobrun', 'file_path': '/Users/nishantchauhan/Downloads/test-files/multimer-test/multimer-batch/multimer-1.fasta'}
+2024-06-03 18:53:25,620 :INFO : create_pipeline :File input element found: <selenium.webdriver.remote.webelement.WebElement (session="3c5b8ee2f99ddc4b0832296a89e90efb", element="f.5F4DFDD7DB86DB069AE70A827D5E3C1A.d.A2D905D9D528F64DC9314F2B053022D7.e.82")>
+2024-06-03 18:53:25,621 :INFO : create_pipeline :Attempting to upload file: /Users/nishantchauhan/Downloads/test-files/multimer-test/multimer-batch/multimer-1.fasta
+2024-06-03 18:53:30,638 :INFO : test_connect_workspace :Connecting to workspace.
+2024-06-03 18:53:30,654 :INFO : delete_workspace :No more workspaces to delete.
+2024-06-03 18:53:30,656 :INFO : test_stop_workspace :Stopping workspace.
+2024-06-03 18:53:31,802 :INFO : test_start_workspace :Starting workspace.
+2024-06-03 18:53:31,821 :INFO : test_restart_workspace :Restarting workspace.
+2024-06-03 18:53:31,836 :INFO : test_share_workspace :Sharing workspace.
+2024-06-03 18:53:31,852 :INFO : test_delete_workspace :Deleting workspace.
+2024-06-03 18:53:31,856 :INFO : delete_workspace :No more workspaces to delete.
+2024-06-03 18:53:31,856 :INFO : delete_workspace :No more workspaces to delete.
+2024-06-03 18:53:31,859 :INFO : test_delete_workspace :No workspaces left to delete.
+2024-06-05 11:13:20,634 :INFO : driver_setup :Setting up the driver
+2024-06-05 11:13:39,597 :INFO : test_login :Starting login test.
+2024-06-05 11:13:39,666 :INFO : module :Clicked on 'Science Cloud' module.
+2024-06-05 11:13:49,678 :INFO : module :Switched to new window.
+2024-06-05 11:13:59,673 :INFO : module :Waiting for email input element to be located.
+2024-06-05 11:13:59,862 :INFO : module :Entered email address.
+2024-06-05 11:13:59,886 :INFO : module :Entered password.
+2024-06-05 11:14:01,872 :INFO : module :Clicked on 'Submit' button.
+2024-06-05 11:14:11,874 :INFO : module :Login successful.
+2024-06-05 11:14:11,876 :INFO : test_login :Login test completed.
+2024-06-05 11:14:11,890 :INFO : test_click_pipeline_tab_and_launchpad :Clicking pipeline tab.
+2024-06-05 11:14:15,965 :INFO : test_click_pipeline_tab_and_launchpad :Clicking launchpad tab.
+2024-06-05 11:14:21,065 :INFO : test_create_pipeline :Creating pipeline with config: {'selected_pipeline': 'AlphaFold2 Monomer New Dir. Struct', 'name': 'alphafold_jobrun', 'file_path': '/Users/nishantchauhan/Downloads/test-files/multimer-test/multimer-batch/multimer-1.fasta'}
+2024-06-05 11:14:39,398 :INFO : create_pipeline :File input element found: <selenium.webdriver.remote.webelement.WebElement (session="a1bd3349da646d62faab798480c3bb00", element="f.D7B5764C50BFD65777A5E59771644163.d.EF454B1B6ECDD4E55DC9FCFACECA87C6.e.85")>
+2024-06-05 11:14:39,399 :INFO : create_pipeline :Attempting to upload file: /Users/nishantchauhan/Downloads/test-files/multimer-test/multimer-batch/multimer-1.fasta
+2024-06-05 11:14:44,418 :INFO : test_connect_workspace :Connecting to workspace.
+2024-06-05 11:14:44,441 :INFO : delete_workspace :No more workspaces to delete.
+2024-06-05 11:14:44,444 :INFO : test_stop_workspace :Stopping workspace.
+2024-06-05 11:14:45,535 :INFO : test_start_workspace :Starting workspace.
+2024-06-05 11:14:45,554 :INFO : test_restart_workspace :Restarting workspace.
+2024-06-05 11:14:45,569 :INFO : test_share_workspace :Sharing workspace.
+2024-06-05 11:14:45,587 :INFO : test_delete_workspace :Deleting workspace.
+2024-06-05 11:14:45,591 :INFO : delete_workspace :No more workspaces to delete.
+2024-06-05 11:14:45,591 :INFO : delete_workspace :No more workspaces to delete.
+2024-06-05 11:14:45,594 :INFO : test_delete_workspace :No workspaces left to delete.
+2024-06-05 11:17:25,715 :INFO : driver_setup :Setting up the driver
+2024-06-05 11:17:38,594 :INFO : test_login :Starting login test.
+2024-06-05 11:17:38,643 :INFO : module :Clicked on 'Science Cloud' module.
+2024-06-05 11:17:48,673 :INFO : module :Switched to new window.
+2024-06-05 11:17:58,678 :INFO : module :Waiting for email input element to be located.
+2024-06-05 11:17:58,813 :INFO : module :Entered email address.
+2024-06-05 11:17:58,840 :INFO : module :Entered password.
+2024-06-05 11:18:01,148 :INFO : module :Clicked on 'Submit' button.
+2024-06-05 11:18:11,154 :INFO : module :Login successful.
+2024-06-05 11:18:11,157 :INFO : test_login :Login test completed.
+2024-06-05 11:18:11,169 :INFO : test_click_pipeline_tab_and_launchpad :Clicking pipeline tab.
+2024-06-05 11:18:15,235 :INFO : test_click_pipeline_tab_and_launchpad :Clicking launchpad tab.
+2024-06-05 11:18:20,320 :INFO : test_create_pipeline :Creating pipeline with config: {'selected_pipeline': 'AlphaFold2 Monomer New Dir. Struct', 'name': 'alphafold_jobrun', 'file_path': '/Users/nishantchauhan/Downloads/test-files/multimer-test/multimer-batch/multimer-1.fasta'}
+2024-06-05 11:18:39,326 :INFO : create_pipeline :File input element found: <selenium.webdriver.remote.webelement.WebElement (session="595f712573302ec3cc536d9811954b60", element="f.76A8E9A280F7C6B6EFCF7ACBA2F40702.d.1F92A51D43B1A70E7FC6CA1C7D58C522.e.74")>
+2024-06-05 11:18:39,327 :INFO : create_pipeline :Attempting to upload file: /Users/nishantchauhan/Downloads/test-files/multimer-test/multimer-batch/multimer-1.fasta
+2024-06-05 11:18:44,341 :INFO : test_connect_workspace :Connecting to workspace.
+2024-06-05 11:18:44,358 :INFO : delete_workspace :No more workspaces to delete.
+2024-06-05 11:18:44,361 :INFO : test_stop_workspace :Stopping workspace.
+2024-06-05 11:18:45,493 :INFO : test_start_workspace :Starting workspace.
+2024-06-05 11:18:45,512 :INFO : test_restart_workspace :Restarting workspace.
+2024-06-05 11:18:45,528 :INFO : test_share_workspace :Sharing workspace.
+2024-06-05 11:18:45,545 :INFO : test_delete_workspace :Deleting workspace.
+2024-06-05 11:18:45,550 :INFO : delete_workspace :No more workspaces to delete.
+2024-06-05 11:18:45,550 :INFO : delete_workspace :No more workspaces to delete.
+2024-06-05 11:18:45,553 :INFO : test_delete_workspace :No workspaces left to delete.
+2024-06-05 11:21:00,851 :INFO : driver_setup :Setting up the driver
+2024-06-05 11:21:13,672 :INFO : test_login :Starting login test.
+2024-06-05 11:21:13,733 :INFO : module :Clicked on 'Science Cloud' module.
+2024-06-05 11:21:23,751 :INFO : module :Switched to new window.
+2024-06-05 11:21:33,753 :INFO : module :Waiting for email input element to be located.
+2024-06-05 11:21:33,863 :INFO : module :Entered email address.
+2024-06-05 11:21:33,887 :INFO : module :Entered password.
+2024-06-05 11:21:35,804 :INFO : module :Clicked on 'Submit' button.
+2024-06-05 11:21:45,809 :INFO : module :Login successful.
+2024-06-05 11:21:45,811 :INFO : test_login :Login test completed.
+2024-06-05 11:21:45,829 :INFO : test_click_pipeline_tab_and_launchpad :Clicking pipeline tab.
+2024-06-05 11:21:49,941 :INFO : test_click_pipeline_tab_and_launchpad :Clicking launchpad tab.
+2024-06-05 11:21:55,023 :INFO : test_create_pipeline :Creating pipeline with config: {'selected_pipeline': 'AlphaFold2 Monomer New Dir. Struct', 'name': 'alphafold_jobrun', 'file_path': '/Users/nishantchauhan/Downloads/test-files/multimer-test/multimer-batch/multimer-1.fasta'}
+2024-06-05 11:22:18,342 :INFO : test_connect_workspace :Connecting to workspace.
+2024-06-05 11:22:18,356 :INFO : delete_workspace :No more workspaces to delete.
+2024-06-05 11:22:18,359 :INFO : test_stop_workspace :Stopping workspace.
+2024-06-05 11:22:19,466 :INFO : test_start_workspace :Starting workspace.
+2024-06-05 11:22:19,490 :INFO : test_restart_workspace :Restarting workspace.
+2024-06-05 11:22:19,506 :INFO : test_share_workspace :Sharing workspace.
+2024-06-05 11:22:19,524 :INFO : test_delete_workspace :Deleting workspace.
+2024-06-05 11:22:19,529 :INFO : delete_workspace :No more workspaces to delete.
+2024-06-05 11:22:19,529 :INFO : delete_workspace :No more workspaces to delete.
+2024-06-05 11:22:19,537 :INFO : test_delete_workspace :No workspaces left to delete.
+2024-06-20 11:23:31,700 :INFO : driver_setup :Setting up the driver
+2024-06-20 11:23:48,424 :INFO : test_login :Starting login test.
+2024-06-20 11:23:48,467 :INFO : module :Clicked on 'Science Cloud' module.
+2024-06-20 11:23:58,484 :INFO : module :Switched to new window.
+2024-06-20 11:24:08,489 :INFO : module :Waiting for email input element to be located.
+2024-06-20 11:24:08,600 :INFO : module :Entered email address.
+2024-06-20 11:24:08,623 :INFO : module :Entered password.
+2024-06-20 11:24:10,840 :INFO : module :Clicked on 'Submit' button.
+2024-06-20 11:24:20,846 :INFO : module :Login successful.
+2024-06-20 11:24:20,847 :INFO : test_login :Login test completed.
+2024-06-20 11:24:20,858 :INFO : test_click_pipeline_tab_and_launchpad :Clicking pipeline tab.
+2024-06-20 11:24:24,911 :INFO : test_click_pipeline_tab_and_launchpad :Clicking launchpad tab.
+2024-06-20 11:24:29,991 :INFO : test_create_pipeline :Creating pipeline with config: {'selected_pipeline': 'AlphaFold2 Monomer New Dir. Struct', 'name': 'alphafold_jobrun', 'file_path': '/Users/nishantchauhan/Downloads/test-files/multimer-test/multimer-batch/multimer-1.fasta'}
+2024-06-20 11:24:54,124 :INFO : test_connect_workspace :Connecting to workspace.
+2024-06-20 11:24:54,141 :INFO : delete_workspace :No more workspaces to delete.
+2024-06-20 11:24:54,144 :INFO : test_stop_workspace :Stopping workspace.
+2024-06-20 11:24:55,278 :INFO : test_start_workspace :Starting workspace.
+2024-06-20 11:24:55,296 :INFO : test_restart_workspace :Restarting workspace.
+2024-06-20 11:24:55,311 :INFO : test_share_workspace :Sharing workspace.
+2024-06-20 11:24:55,325 :INFO : test_delete_workspace :Deleting workspace.
+2024-06-20 11:24:55,329 :INFO : delete_workspace :No more workspaces to delete.
+2024-06-20 11:24:55,329 :INFO : delete_workspace :No more workspaces to delete.
+2024-06-20 11:24:55,331 :INFO : test_delete_workspace :No workspaces left to delete.
+2024-06-20 11:58:00,779 :INFO : driver_setup :Setting up the driver
+2024-06-20 11:58:12,766 :INFO : test_login :Starting login test.
+2024-06-20 11:58:12,805 :INFO : module :Clicked on 'Science Cloud' module.
+2024-06-20 11:58:22,826 :INFO : module :Switched to new window.
+2024-06-20 11:58:32,831 :INFO : module :Waiting for email input element to be located.
+2024-06-20 11:58:32,935 :INFO : module :Entered email address.
+2024-06-20 11:58:32,959 :INFO : module :Entered password.
+2024-06-20 11:58:34,817 :INFO : module :Clicked on 'Submit' button.
+2024-06-20 11:58:44,820 :INFO : module :Login successful.
+2024-06-20 11:58:44,821 :INFO : test_login :Login test completed.
+2024-06-20 11:58:44,830 :INFO : test_click_pipeline_tab_and_launchpad :Clicking pipeline tab.
+2024-06-20 11:58:48,891 :INFO : test_click_pipeline_tab_and_launchpad :Clicking launchpad tab.
+2024-06-20 11:58:53,972 :INFO : test_create_pipeline :Creating pipeline with config: {'selected_pipeline': 'AlphaFold2 Monomer New Dir. Struct', 'name': 'alphafold_jobrun', 'file_path': '/Users/nishantchauhan/Downloads/test-files/multimer-test/multimer-batch/multimer-1.fasta'}
+2024-06-20 11:58:59,981 :INFO : create_pipeline :Clicking pipeline run button: (//div[contains(@class, 'catalog-card')]//div[contains(text(), 'AlphaFold2 Monomer New Dir. Struct')]/ancestor::div[contains(@class, 'card-template')]//button[span[text()='Run']])[1]
+2024-06-20 11:59:04,044 :INFO : create_pipeline :Finding job name field: //form[@class='workspace-box-full-height create-job-form']//label[text()='Name']/following-sibling::div//input[@name='name']
+2024-06-20 11:59:08,108 :INFO : create_pipeline :Clicking file upload: //span[@class='cursor-pointer d-flex align-items-center upload-label']
+2024-06-20 11:59:10,157 :INFO : create_pipeline :Waiting for modal to appear: //div[@class='modal-content popup']
+2024-06-20 11:59:10,189 :INFO : create_pipeline :Clicking drag and drop area: //div[@class='modal-content popup']//div[@class='modal-body pl-4 cluster-create-main']//div[@class='file-uploader ']//div[@class='info-content']
+2024-06-20 11:59:12,846 :INFO : create_pipeline :Finding file input element: //input[@type='file']
+2024-06-20 11:59:12,893 :INFO : create_pipeline :File path sent to file input: /Users/nishantchauhan/Downloads/test-files/multimer-test/multimer-batch/multimer-1.fasta
+2024-06-20 11:59:17,906 :INFO : test_connect_workspace :Connecting to workspace.
+2024-06-20 11:59:17,923 :INFO : delete_workspace :No more workspaces to delete.
+2024-06-20 11:59:17,927 :INFO : test_stop_workspace :Stopping workspace.
+2024-06-20 11:59:19,014 :INFO : test_start_workspace :Starting workspace.
+2024-06-20 11:59:19,034 :INFO : test_restart_workspace :Restarting workspace.
+2024-06-20 11:59:19,050 :INFO : test_share_workspace :Sharing workspace.
+2024-06-20 11:59:19,065 :INFO : test_delete_workspace :Deleting workspace.
+2024-06-20 11:59:19,069 :INFO : delete_workspace :No more workspaces to delete.
+2024-06-20 11:59:19,069 :INFO : delete_workspace :No more workspaces to delete.
+2024-06-20 11:59:19,072 :INFO : test_delete_workspace :No workspaces left to delete.
+2024-06-20 12:03:48,520 :INFO : driver_setup :Setting up the driver
+2024-06-20 12:04:00,621 :INFO : test_stop_workspace :Stopping workspace.
+2024-06-20 12:04:00,660 :INFO : test_start_workspace :Starting workspace.
+2024-06-20 12:04:00,678 :INFO : test_restart_workspace :Restarting workspace.
+2024-06-20 12:04:00,694 :INFO : test_share_workspace :Sharing workspace.
+2024-06-20 13:44:53,889 :INFO : driver_setup :Setting up the driver
+2024-06-20 13:45:06,402 :INFO : test_login :Starting login test.
+2024-06-20 13:45:06,438 :INFO : module :Clicked on 'Science Cloud' module.
+2024-06-20 13:45:16,454 :INFO : module :Switched to new window.
+2024-06-20 13:45:26,460 :INFO : module :Waiting for email input element to be located.
+2024-06-20 13:45:26,574 :INFO : module :Entered email address.
+2024-06-20 13:45:26,598 :INFO : module :Entered password.
+2024-06-20 13:45:29,096 :INFO : module :Clicked on 'Submit' button.
+2024-06-20 13:45:39,101 :INFO : module :Login successful.
+2024-06-20 13:45:39,102 :INFO : test_login :Login test completed.
+2024-06-20 13:45:39,109 :INFO : test_click_pipeline_tab_and_launchpad :Clicking pipeline tab.
+2024-06-20 13:45:43,158 :INFO : test_click_pipeline_tab_and_launchpad :Clicking launchpad tab.
+2024-06-20 13:45:48,239 :INFO : test_create_pipeline :Creating pipeline with config: {'selected_pipeline': 'AlphaFold2 Monomer New Dir. Struct', 'name': 'alphafold_jobrun', 'file_path': '/Users/nishantchauhan/Downloads/test-files/multimer-test/multimer-batch/multimer-1.fasta'}
+2024-06-20 13:45:54,248 :INFO : create_pipeline :Clicking pipeline run button: (//div[contains(@class, 'catalog-card')]//div[contains(text(), 'AlphaFold2 Monomer New Dir. Struct')]/ancestor::div[contains(@class, 'card-template')]//button[span[text()='Run']])[1]
+2024-06-20 13:45:58,314 :INFO : create_pipeline :Finding job name field: //form[@class='workspace-box-full-height create-job-form']//label[text()='Name']/following-sibling::div//input[@name='name']
+2024-06-20 13:46:02,379 :INFO : create_pipeline :Clicking file upload: //span[@class='cursor-pointer d-flex align-items-center upload-label']
+2024-06-20 13:46:04,432 :INFO : create_pipeline :Waiting for modal to appear: //div[@class='modal-content popup']
+2024-06-20 13:46:04,466 :INFO : create_pipeline :Clicking drag and drop area: //div[@class='modal-content popup']//div[@class='modal-body pl-4 cluster-create-main']//div[@class='file-uploader ']//div[@class='info-content']
+2024-06-20 13:46:07,218 :INFO : create_pipeline :Finding file input element: //input[@type='file']
+2024-06-20 13:46:07,259 :INFO : create_pipeline :File path sent to file input: /Users/nishantchauhan/Downloads/test-files/multimer-test/multimer-batch/multimer-1.fasta
+2024-06-20 13:46:12,271 :INFO : test_connect_workspace :Connecting to workspace.
+2024-06-20 13:46:12,288 :INFO : delete_workspace :No more workspaces to delete.
+2024-06-20 13:46:12,292 :INFO : test_stop_workspace :Stopping workspace.
+2024-06-20 13:46:13,402 :INFO : test_start_workspace :Starting workspace.
+2024-06-20 13:46:13,422 :INFO : test_restart_workspace :Restarting workspace.
+2024-06-20 13:46:13,439 :INFO : test_share_workspace :Sharing workspace.
+2024-06-20 13:46:13,454 :INFO : test_delete_workspace :Deleting workspace.
+2024-06-20 13:46:13,458 :INFO : delete_workspace :No more workspaces to delete.
+2024-06-20 13:46:13,458 :INFO : delete_workspace :No more workspaces to delete.
+2024-06-20 13:46:13,461 :INFO : test_delete_workspace :No workspaces left to delete.
+2024-06-20 13:46:16,587 :INFO : driver_setup :Setting up the driver
+2024-06-20 13:46:28,536 :INFO : test_login :Starting login test.
+2024-06-20 13:46:28,572 :INFO : module :Clicked on 'Science Cloud' module.
+2024-06-20 13:46:38,595 :INFO : module :Switched to new window.
+2024-06-20 13:46:48,601 :INFO : module :Waiting for email input element to be located.
+2024-06-20 13:46:48,710 :INFO : module :Entered email address.
+2024-06-20 13:46:48,734 :INFO : module :Entered password.
+2024-06-20 13:46:51,122 :INFO : module :Clicked on 'Submit' button.
+2024-06-20 13:47:01,126 :INFO : module :Login successful.
+2024-06-20 13:47:01,126 :INFO : test_login :Login test completed.
+2024-06-20 13:47:01,129 :INFO : test_click_pipeline_tab_and_launchpad :Clicking pipeline tab.
+2024-06-20 13:47:05,166 :INFO : test_click_pipeline_tab_and_launchpad :Clicking launchpad tab.
+2024-06-20 13:47:10,247 :INFO : test_create_pipeline :Creating pipeline with config: {'selected_pipeline': 'AlphaFold2 Monomer New Dir. Struct', 'name': 'alphafold_jobrun', 'file_path': '/Users/nishantchauhan/Downloads/test-files/multimer-test/multimer-batch/multimer-1.fasta'}
+2024-06-20 13:47:16,252 :INFO : create_pipeline :Clicking pipeline run button: (//div[contains(@class, 'catalog-card')]//div[contains(text(), 'AlphaFold2 Monomer New Dir. Struct')]/ancestor::div[contains(@class, 'card-template')]//button[span[text()='Run']])[1]
+2024-06-20 13:47:20,316 :INFO : create_pipeline :Finding job name field: //form[@class='workspace-box-full-height create-job-form']//label[text()='Name']/following-sibling::div//input[@name='name']
+2024-06-20 13:47:24,386 :INFO : create_pipeline :Clicking file upload: //span[@class='cursor-pointer d-flex align-items-center upload-label']
+2024-06-20 13:47:26,438 :INFO : create_pipeline :Waiting for modal to appear: //div[@class='modal-content popup']
+2024-06-20 13:47:26,468 :INFO : create_pipeline :Clicking drag and drop area: //div[@class='modal-content popup']//div[@class='modal-body pl-4 cluster-create-main']//div[@class='file-uploader ']//div[@class='info-content']
+2024-06-20 13:47:29,123 :INFO : create_pipeline :Finding file input element: //input[@type='file']
+2024-06-20 13:47:29,175 :INFO : create_pipeline :File path sent to file input: /Users/nishantchauhan/Downloads/test-files/multimer-test/multimer-batch/multimer-1.fasta
+2024-06-20 13:47:34,187 :INFO : test_connect_workspace :Connecting to workspace.
+2024-06-20 13:47:34,202 :INFO : delete_workspace :No more workspaces to delete.
+2024-06-20 13:47:34,205 :INFO : test_stop_workspace :Stopping workspace.
+2024-06-20 13:47:35,285 :INFO : test_start_workspace :Starting workspace.
+2024-06-20 13:47:35,304 :INFO : test_restart_workspace :Restarting workspace.
+2024-06-20 13:47:35,319 :INFO : test_share_workspace :Sharing workspace.
+2024-06-20 13:47:35,334 :INFO : test_delete_workspace :Deleting workspace.
+2024-06-20 13:47:35,338 :INFO : delete_workspace :No more workspaces to delete.
+2024-06-20 13:47:35,338 :INFO : delete_workspace :No more workspaces to delete.
+2024-06-20 13:47:35,341 :INFO : test_delete_workspace :No workspaces left to delete.
+2024-06-20 17:15:01,319 :INFO : driver_setup :Setting up the driver
+2024-06-20 17:15:14,121 :INFO : test_login :Starting login test.
+2024-06-20 17:15:14,159 :INFO : module :Clicked on 'Science Cloud' module.
+2024-06-20 17:15:24,182 :INFO : module :Switched to new window.
+2024-06-20 17:15:34,189 :INFO : module :Waiting for email input element to be located.
+2024-06-20 17:15:34,305 :INFO : module :Entered email address.
+2024-06-20 17:15:34,329 :INFO : module :Entered password.
+2024-06-20 17:15:36,261 :INFO : module :Clicked on 'Submit' button.
+2024-06-20 17:15:46,266 :INFO : module :Login successful.
+2024-06-20 17:15:46,268 :INFO : test_login :Login test completed.
+2024-06-20 17:15:46,275 :INFO : test_click_pipeline_tab_and_launchpad :Clicking pipeline tab.
+2024-06-20 17:15:50,338 :INFO : test_click_pipeline_tab_and_launchpad :Clicking launchpad tab.
+2024-06-20 17:15:55,411 :INFO : test_create_pipeline :Creating pipeline with config: {'selected_pipeline': 'AlphaFold2 Monomer New Dir. Struct', 'name': 'alphafold_jobrun', 'file_path': '/Users/nishantchauhan/Downloads/test-files/multimer-test/multimer-batch/multimer-1.fasta'}
+2024-06-20 17:16:01,419 :INFO : create_pipeline :Clicking pipeline run button: (//div[contains(@class, 'catalog-card')]//div[contains(text(), 'AlphaFold2 Monomer New Dir. Struct')]/ancestor::div[contains(@class, 'card-template')]//button[span[text()='Run']])[1]
+2024-06-20 17:16:05,484 :INFO : create_pipeline :Finding job name field: //form[@class='workspace-box-full-height create-job-form']//label[text()='Name']/following-sibling::div//input[@name='name']
+2024-06-20 17:16:09,551 :INFO : create_pipeline :Clicking file upload: //span[@class='cursor-pointer d-flex align-items-center upload-label']
+2024-06-20 17:16:11,607 :INFO : create_pipeline :Waiting for modal to appear: //div[@class='modal-content popup']
+2024-06-20 17:16:11,638 :INFO : create_pipeline :Clicking drag and drop area: //div[@class='modal-content popup']//div[@class='modal-body pl-4 cluster-create-main']//div[@class='file-uploader ']//div[@class='info-content']
+2024-06-20 17:16:14,576 :INFO : create_pipeline :Finding file input element: //input[@type='file']
+2024-06-20 17:16:14,629 :INFO : create_pipeline :File path sent to file input: /Users/nishantchauhan/Downloads/test-files/multimer-test/multimer-batch/multimer-1.fasta
+2024-06-20 17:16:19,645 :INFO : test_connect_workspace :Connecting to workspace.
+2024-06-20 17:16:19,661 :INFO : delete_workspace :No more workspaces to delete.
+2024-06-20 17:16:19,664 :INFO : test_stop_workspace :Stopping workspace.
+2024-06-20 17:16:20,749 :INFO : test_start_workspace :Starting workspace.
+2024-06-20 17:16:20,768 :INFO : test_restart_workspace :Restarting workspace.
+2024-06-20 17:16:20,784 :INFO : test_share_workspace :Sharing workspace.
+2024-06-20 17:16:20,799 :INFO : test_delete_workspace :Deleting workspace.
+2024-06-20 17:16:20,803 :INFO : delete_workspace :No more workspaces to delete.
+2024-06-20 17:16:20,803 :INFO : delete_workspace :No more workspaces to delete.
+2024-06-20 17:16:20,805 :INFO : test_delete_workspace :No workspaces left to delete.
+2024-06-20 17:21:05,593 :INFO : driver_setup :Setting up the driver
+2024-06-20 17:21:17,742 :INFO : test_login :Starting login test.
+2024-06-20 17:21:17,780 :INFO : module :Clicked on 'Science Cloud' module.
+2024-06-20 17:21:27,796 :INFO : module :Switched to new window.
+2024-06-20 17:21:37,798 :INFO : module :Waiting for email input element to be located.
+2024-06-20 17:21:37,914 :INFO : module :Entered email address.
+2024-06-20 17:21:37,938 :INFO : module :Entered password.
+2024-06-20 17:21:39,920 :INFO : module :Clicked on 'Submit' button.
+2024-06-20 17:21:49,926 :INFO : module :Login successful.
+2024-06-20 17:21:49,926 :INFO : test_login :Login test completed.
+2024-06-20 17:21:49,934 :INFO : test_click_pipeline_tab_and_launchpad :Clicking pipeline tab.
+2024-06-20 17:21:53,985 :INFO : test_click_pipeline_tab_and_launchpad :Clicking launchpad tab.
+2024-06-20 17:21:59,061 :INFO : test_create_pipeline :Creating pipeline with config: {'selected_pipeline': 'AlphaFold2 Monomer New Dir. Struct', 'name': 'alphafold_jobrun', 'file_path': '/Users/nishantchauhan/Documents/test-files/multimer-test/multimer-batch/multimer-1.fasta'}
+2024-06-20 17:22:05,071 :INFO : create_pipeline :Clicking pipeline run button: (//div[contains(@class, 'catalog-card')]//div[contains(text(), 'AlphaFold2 Monomer New Dir. Struct')]/ancestor::div[contains(@class, 'card-template')]//button[span[text()='Run']])[1]
+2024-06-20 17:22:09,135 :INFO : create_pipeline :Finding job name field: //form[@class='workspace-box-full-height create-job-form']//label[text()='Name']/following-sibling::div//input[@name='name']
+2024-06-20 17:22:13,204 :INFO : create_pipeline :Clicking file upload: //span[@class='cursor-pointer d-flex align-items-center upload-label']
+2024-06-20 17:22:15,263 :INFO : create_pipeline :Waiting for modal to appear: //div[@class='modal-content popup']
+2024-06-20 17:22:15,293 :INFO : create_pipeline :Clicking drag and drop area: //div[@class='modal-content popup']//div[@class='modal-body pl-4 cluster-create-main']//div[@class='file-uploader ']//div[@class='info-content']
+2024-06-20 17:22:18,121 :INFO : create_pipeline :Finding file input element: //input[@type='file']
+2024-06-20 17:22:18,145 :INFO : create_pipeline :File path sent to file input: /Users/nishantchauhan/Documents/test-files/multimer-test/multimer-batch/multimer-1.fasta
+2024-06-20 17:22:23,158 :INFO : test_connect_workspace :Connecting to workspace.
+2024-06-20 17:22:23,173 :INFO : delete_workspace :No more workspaces to delete.
+2024-06-20 17:22:23,176 :INFO : test_stop_workspace :Stopping workspace.
+2024-06-20 17:22:24,316 :INFO : test_start_workspace :Starting workspace.
+2024-06-20 17:22:24,336 :INFO : test_restart_workspace :Restarting workspace.
+2024-06-20 17:22:24,351 :INFO : test_share_workspace :Sharing workspace.
+2024-06-20 17:22:24,365 :INFO : test_delete_workspace :Deleting workspace.
+2024-06-20 17:22:24,369 :INFO : delete_workspace :No more workspaces to delete.
+2024-06-20 17:22:24,369 :INFO : delete_workspace :No more workspaces to delete.
+2024-06-20 17:22:24,372 :INFO : test_delete_workspace :No workspaces left to delete.
+2024-06-20 17:32:17,644 :INFO : driver_setup :Setting up the driver
+2024-06-20 17:32:29,618 :INFO : test_login :Starting login test.
+2024-06-20 17:32:29,673 :INFO : module :Clicked on 'Science Cloud' module.
+2024-06-20 17:32:39,693 :INFO : module :Switched to new window.
+2024-06-20 17:32:49,699 :INFO : module :Waiting for email input element to be located.
+2024-06-20 17:32:49,807 :INFO : module :Entered email address.
+2024-06-20 17:32:49,831 :INFO : module :Entered password.
+2024-06-20 17:32:51,853 :INFO : module :Clicked on 'Submit' button.
+2024-06-20 17:33:01,859 :INFO : module :Login successful.
+2024-06-20 17:33:01,859 :INFO : test_login :Login test completed.
+2024-06-20 17:33:01,866 :INFO : test_click_pipeline_tab_and_launchpad :Clicking pipeline tab.
+2024-06-20 17:33:05,919 :INFO : test_click_pipeline_tab_and_launchpad :Clicking launchpad tab.
+2024-06-20 17:33:10,998 :INFO : test_create_pipeline :Creating pipeline with config: {'selected_pipeline': 'AlphaFold2 Monomer New Dir. Struct', 'name': 'alphafold_jobrun', 'file_path': '/Users/nishantchauhan/Documents/test-files/multimer-test/multimer-batch/multimer-1.fasta'}
+2024-06-20 17:33:17,008 :INFO : create_pipeline :Clicking pipeline run button: (//div[contains(@class, 'catalog-card')]//div[contains(text(), 'AlphaFold2 Monomer New Dir. Struct')]/ancestor::div[contains(@class, 'card-template')]//button[span[text()='Run']])[1]
+2024-06-20 17:33:21,074 :INFO : create_pipeline :Finding job name field: //form[@class='workspace-box-full-height create-job-form']//label[text()='Name']/following-sibling::div//input[@name='name']
+2024-06-20 17:33:25,139 :INFO : create_pipeline :Clicking file upload: //span[@class='cursor-pointer d-flex align-items-center upload-label']
+2024-06-20 17:33:27,198 :INFO : create_pipeline :Waiting for modal to appear: //div[@class='modal-content popup']
+2024-06-20 17:33:27,229 :INFO : create_pipeline :Clicking drag and drop area: //div[@class='modal-content popup']//div[@class='modal-body pl-4 cluster-create-main']//div[@class='file-uploader ']//div[@class='info-content']
+2024-06-20 17:33:29,865 :INFO : create_pipeline :Finding file input element: //input[@type='file']
+2024-06-20 17:33:29,916 :INFO : create_pipeline :File path sent to file input: /Users/nishantchauhan/Documents/test-files/multimer-test/multimer-batch/multimer-1.fasta
+2024-06-20 17:33:39,929 :INFO : test_connect_workspace :Connecting to workspace.
+2024-06-20 17:33:39,946 :INFO : delete_workspace :No more workspaces to delete.
+2024-06-20 17:33:39,949 :INFO : test_stop_workspace :Stopping workspace.
+2024-06-20 17:33:41,087 :INFO : test_start_workspace :Starting workspace.
+2024-06-20 17:33:41,106 :INFO : test_restart_workspace :Restarting workspace.
+2024-06-20 17:33:41,121 :INFO : test_share_workspace :Sharing workspace.
+2024-06-20 17:33:41,135 :INFO : test_delete_workspace :Deleting workspace.
+2024-06-20 17:33:41,139 :INFO : delete_workspace :No more workspaces to delete.
+2024-06-20 17:33:41,139 :INFO : delete_workspace :No more workspaces to delete.
+2024-06-20 17:33:41,141 :INFO : test_delete_workspace :No workspaces left to delete.
+2024-06-20 17:37:21,216 :INFO : driver_setup :Setting up the driver
+2024-06-20 17:37:33,699 :INFO : test_login :Starting login test.
+2024-06-20 17:37:33,746 :INFO : module :Clicked on 'Science Cloud' module.
+2024-06-20 17:37:43,764 :INFO : module :Switched to new window.
+2024-06-20 17:37:53,770 :INFO : module :Waiting for email input element to be located.
+2024-06-20 17:37:53,879 :INFO : module :Entered email address.
+2024-06-20 17:37:53,903 :INFO : module :Entered password.
+2024-06-20 17:37:55,732 :INFO : module :Clicked on 'Submit' button.
+2024-06-20 17:38:05,738 :INFO : module :Login successful.
+2024-06-20 17:38:05,740 :INFO : test_login :Login test completed.
+2024-06-20 17:38:05,748 :INFO : test_click_pipeline_tab_and_launchpad :Clicking pipeline tab.
+2024-06-20 17:38:09,803 :INFO : test_click_pipeline_tab_and_launchpad :Clicking launchpad tab.
+2024-06-20 17:38:14,881 :INFO : test_create_pipeline :Creating pipeline with config: {'selected_pipeline': 'AlphaFold2 Monomer New Dir. Struct', 'name': 'alphafold_jobrun', 'file_path': '/Users/nishantchauhan/Documents/test-files/multimer-test/multimer-batch/multimer-1.fasta'}
+2024-06-20 17:38:20,891 :INFO : create_pipeline :Clicking pipeline run button: (//div[contains(@class, 'catalog-card')]//div[contains(text(), 'AlphaFold2 Monomer New Dir. Struct')]/ancestor::div[contains(@class, 'card-template')]//button[span[text()='Run']])[1]
+2024-06-20 17:38:24,969 :INFO : create_pipeline :Finding job name field: //form[@class='workspace-box-full-height create-job-form']//label[text()='Name']/following-sibling::div//input[@name='name']
+2024-06-20 17:38:29,036 :INFO : create_pipeline :Clicking file upload: //span[@class='cursor-pointer d-flex align-items-center upload-label']
+2024-06-20 17:38:31,099 :INFO : create_pipeline :Waiting for modal to appear: //div[@class='modal-content popup']
+2024-06-20 17:38:31,124 :INFO : create_pipeline :Clicking drag and drop area: //div[@class='modal-content popup']//div[@class='modal-body pl-4 cluster-create-main']//div[@class='file-uploader ']//div[@class='info-content']
+2024-06-20 17:38:33,801 :INFO : create_pipeline :Finding file input element: //input[@type='file']
+2024-06-20 17:38:33,824 :ERROR : create_pipeline :File input element is not interactable.
+2024-06-20 17:38:43,836 :INFO : test_connect_workspace :Connecting to workspace.
+2024-06-20 17:38:43,853 :INFO : delete_workspace :No more workspaces to delete.
+2024-06-20 17:38:43,856 :INFO : test_stop_workspace :Stopping workspace.
+2024-06-20 17:38:44,985 :INFO : test_start_workspace :Starting workspace.
+2024-06-20 17:38:45,004 :INFO : test_restart_workspace :Restarting workspace.
+2024-06-20 17:38:45,019 :INFO : test_share_workspace :Sharing workspace.
+2024-06-20 17:38:45,033 :INFO : test_delete_workspace :Deleting workspace.
+2024-06-20 17:38:45,037 :INFO : delete_workspace :No more workspaces to delete.
+2024-06-20 17:38:45,037 :INFO : delete_workspace :No more workspaces to delete.
+2024-06-20 17:38:45,040 :INFO : test_delete_workspace :No workspaces left to delete.
+2024-06-20 17:40:36,052 :INFO : driver_setup :Setting up the driver
+2024-06-20 17:40:48,021 :INFO : test_login :Starting login test.
+2024-06-20 17:40:48,065 :INFO : module :Clicked on 'Science Cloud' module.
+2024-06-20 17:40:58,081 :INFO : module :Switched to new window.
+2024-06-20 17:41:08,086 :INFO : module :Waiting for email input element to be located.
+2024-06-20 17:41:08,193 :INFO : module :Entered email address.
+2024-06-20 17:41:08,217 :INFO : module :Entered password.
+2024-06-20 17:41:10,719 :INFO : module :Clicked on 'Submit' button.
+2024-06-20 17:41:20,725 :INFO : module :Login successful.
+2024-06-20 17:41:20,726 :INFO : test_login :Login test completed.
+2024-06-20 17:41:20,734 :INFO : test_click_pipeline_tab_and_launchpad :Clicking pipeline tab.
+2024-06-20 17:41:24,789 :INFO : test_click_pipeline_tab_and_launchpad :Clicking launchpad tab.
+2024-06-20 17:41:29,865 :INFO : test_create_pipeline :Creating pipeline with config: {'selected_pipeline': 'AlphaFold2 Monomer New Dir. Struct', 'name': 'alphafold_jobrun', 'file_path': '/Users/nishantchauhan/Documents/test-files/multimer-test/multimer-batch/multimer-1.fasta'}
+2024-06-20 17:41:35,874 :INFO : create_pipeline :Clicking pipeline run button: (//div[contains(@class, 'catalog-card')]//div[contains(text(), 'AlphaFold2 Monomer New Dir. Struct')]/ancestor::div[contains(@class, 'card-template')]//button[span[text()='Run']])[1]
+2024-06-20 17:41:39,952 :INFO : create_pipeline :Finding job name field: //form[@class='workspace-box-full-height create-job-form']//label[text()='Name']/following-sibling::div//input[@name='name']
+2024-06-20 17:41:44,019 :INFO : create_pipeline :Clicking file upload: //span[@class='cursor-pointer d-flex align-items-center upload-label']
+2024-06-20 17:41:46,084 :INFO : create_pipeline :Waiting for modal to appear: //div[@class='modal-content popup']
+2024-06-20 17:41:46,109 :INFO : create_pipeline :Clicking drag and drop area: //div[@class='modal-content popup']//div[@class='modal-body pl-4 cluster-create-main']//div[@class='file-uploader ']//div[@class='info-content']
+2024-06-20 17:41:58,844 :INFO : test_connect_workspace :Connecting to workspace.
+2024-06-20 17:41:58,860 :INFO : delete_workspace :No more workspaces to delete.
+2024-06-20 17:41:58,864 :INFO : test_stop_workspace :Stopping workspace.
+2024-06-20 17:41:59,988 :INFO : test_start_workspace :Starting workspace.
+2024-06-20 17:42:00,008 :INFO : test_restart_workspace :Restarting workspace.
+2024-06-20 17:42:00,068 :INFO : test_share_workspace :Sharing workspace.
+2024-06-20 17:42:00,083 :INFO : test_delete_workspace :Deleting workspace.
+2024-06-20 17:42:00,087 :INFO : delete_workspace :No more workspaces to delete.
+2024-06-20 17:42:00,087 :INFO : delete_workspace :No more workspaces to delete.
+2024-06-20 17:42:00,090 :INFO : test_delete_workspace :No workspaces left to delete.
+2024-08-08 12:39:04,457 :INFO : driver_setup :Setting up the driver
+2024-08-08 12:39:20,241 :INFO : test_login :Starting login test.
+2024-08-08 12:39:20,292 :INFO : module :Clicked on 'Science Cloud' module.

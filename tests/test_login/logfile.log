@@ -1,0 +1,109 @@
+2024-01-29 19:04:53,896 :INFO : setup_driver :Setting up the driver
+2024-01-29 19:04:55,094 :INFO : login :Opening the login page
+2024-01-29 19:05:07,691 :INFO : login :Clicking on the 'Science Cloud' module
+2024-01-29 19:05:21,750 :INFO : login :Entering login credentials
+2024-01-29 19:05:21,751 :INFO : login :After Reading from json
+2024-01-29 19:05:31,772 :INFO : login :After explicit wait
+2024-01-29 19:19:24,713 :INFO : setup_driver :Setting up the driver
+2024-01-29 19:19:29,001 :INFO : login :Opening the login page
+2024-01-29 19:19:42,095 :INFO : login :Clicking on the 'Science Cloud' module
+2024-01-29 19:19:56,152 :INFO : login :Entering login credentials
+2024-01-29 19:19:56,152 :INFO : login :After Reading from json
+2024-01-29 19:20:12,754 :INFO : login :After explicit wait
+2024-01-29 19:20:38,809 :INFO : setup_driver :Setting up the driver
+2024-01-29 19:20:39,978 :INFO : login :Opening the login page
+2024-01-29 19:20:52,422 :INFO : login :Clicking on the 'Science Cloud' module
+2024-01-29 19:21:06,487 :INFO : login :Entering login credentials
+2024-01-29 19:21:06,487 :INFO : login :After Reading from json
+2024-01-29 19:21:29,419 :INFO : login :After explicit wait
+2024-01-29 19:23:22,492 :INFO : setup_driver :Setting up the driver
+2024-01-29 19:23:23,666 :INFO : login :Opening the login page
+2024-01-29 19:23:36,798 :INFO : login :Clicking on the 'Science Cloud' module
+2024-01-29 19:23:50,856 :INFO : login :Entering login credentials
+2024-01-29 19:23:50,857 :INFO : login :After Reading from json
+2024-01-29 19:24:16,573 :INFO : login :After explicit wait
+2024-01-29 19:24:44,023 :INFO : setup_driver :Setting up the driver
+2024-01-29 19:24:45,225 :INFO : login :Opening the login page
+2024-01-29 19:24:57,480 :INFO : login :Clicking on the 'Science Cloud' module
+2024-01-29 19:25:11,544 :INFO : login :Entering login credentials
+2024-01-29 19:25:11,545 :INFO : login :After Reading from json
+2024-01-29 19:25:34,540 :INFO : setup_driver :Setting up the driver
+2024-01-29 19:25:35,732 :INFO : login :Opening the login page
+2024-01-29 19:25:47,577 :INFO : login :Clicking on the 'Science Cloud' module
+2024-01-29 19:26:07,635 :INFO : login :Entering login credentials
+2024-01-29 19:26:07,635 :INFO : login :After Reading from json
+2024-01-29 19:28:22,543 :INFO : setup_driver :Setting up the driver
+2024-01-29 19:28:23,696 :INFO : login :Opening the login page
+2024-01-29 20:03:43,810 :INFO : setup_driver :Setting up the driver
+2024-01-29 20:03:44,969 :INFO : login :Opening the login page
+2024-01-29 20:03:58,264 :INFO : login :Clicking on the 'Science Cloud' module
+2024-01-29 20:04:18,328 :INFO : login :Entering login credentials
+2024-01-29 20:04:18,329 :INFO : login :After Reading from json
+2024-01-29 20:05:22,076 :INFO : setup_driver :Setting up the driver
+2024-01-29 20:05:23,277 :INFO : login :Opening the login page
+2024-01-29 20:05:35,819 :INFO : login :Clicking on the 'Science Cloud' module
+2024-01-29 20:05:55,886 :INFO : login :Entering login credentials
+2024-01-29 20:05:55,886 :INFO : login :After Reading from json
+2024-01-29 20:06:33,458 :INFO : setup_driver :Setting up the driver
+2024-01-29 20:06:34,660 :INFO : login :Opening the login page
+2024-01-29 20:06:47,838 :INFO : login :Clicking on the 'Science Cloud' module
+2024-01-29 20:07:07,906 :INFO : login :Entering login credentials
+2024-01-29 20:07:07,906 :INFO : login :After Reading from json
+2024-01-29 20:13:36,730 :INFO : setup_driver :Setting up the driver
+2024-01-29 20:13:37,959 :INFO : login :Opening the login page
+2024-01-29 20:13:50,352 :INFO : login :Clicking on the 'Science Cloud' module
+2024-01-29 20:14:10,419 :INFO : login :Entering login credentials
+2024-01-29 20:14:10,419 :INFO : login :After Reading from json
+2024-01-29 20:15:42,655 :INFO : setup_driver :Setting up the driver
+2024-01-29 20:15:43,861 :INFO : login :Opening the login page
+2024-01-29 20:15:56,248 :INFO : login :Clicking on the 'Science Cloud' module
+2024-01-29 20:16:16,320 :INFO : login :Entering login credentials
+2024-01-29 20:16:16,321 :INFO : login :After Reading from json
+2024-01-29 20:19:13,956 :INFO : setup_driver :Setting up the driver
+2024-01-29 20:19:15,139 :INFO : login :Opening the login page
+2024-01-29 20:19:27,157 :INFO : login :Clicking on the 'Science Cloud' module
+2024-01-29 20:19:47,227 :INFO : login :Waiting for email input xpath to be located
+2024-01-29 21:08:00,169 :INFO : setup_driver :Setting up the driver
+2024-01-29 21:08:01,366 :INFO : login :Opening the login page
+2024-01-29 21:08:13,295 :INFO : login :Clicking on the 'Science Cloud' module
+2024-01-29 21:08:33,358 :INFO : login :Waiting for email input xpath to be located
+2024-01-29 21:08:38,841 :INFO : login :Submitting the login form
+2024-01-29 21:08:57,326 :INFO : login :Login successful
+2024-01-29 21:08:57,419 :INFO : setup_driver :Setting up the driver
+2024-01-29 21:08:57,419 :INFO : setup_driver :Setting up the driver
+2024-01-29 21:08:58,578 :INFO : login :Opening the login page
+2024-01-29 21:08:58,578 :INFO : login :Opening the login page
+2024-01-29 21:09:10,336 :INFO : login :Clicking on the 'Science Cloud' module
+2024-01-29 21:09:10,336 :INFO : login :Clicking on the 'Science Cloud' module
+2024-01-29 21:09:30,392 :INFO : login :Waiting for email input xpath to be located
+2024-01-29 21:09:30,392 :INFO : login :Waiting for email input xpath to be located
+2024-01-29 21:09:35,561 :INFO : login :Submitting the login form
+2024-01-29 21:09:35,561 :INFO : login :Submitting the login form
+2024-01-29 21:09:53,330 :INFO : login :Login successful
+2024-01-29 21:09:53,330 :INFO : login :Login successful
+2024-01-29 21:10:31,768 :INFO : setup_driver :Setting up the driver
+2024-01-29 21:10:31,768 :INFO : setup_driver :Setting up the driver
+2024-01-29 21:10:31,768 :INFO : setup_driver :Setting up the driver
+2024-01-29 21:10:32,952 :INFO : login :Opening the login page
+2024-01-29 21:10:32,952 :INFO : login :Opening the login page
+2024-01-29 21:10:32,952 :INFO : login :Opening the login page
+2024-01-29 21:10:44,871 :INFO : login :Clicking on the 'Science Cloud' module
+2024-01-29 21:10:44,871 :INFO : login :Clicking on the 'Science Cloud' module
+2024-01-29 21:10:44,871 :INFO : login :Clicking on the 'Science Cloud' module
+2024-01-29 21:11:04,956 :INFO : login :Waiting for email input xpath to be located
+2024-01-29 21:11:04,956 :INFO : login :Waiting for email input xpath to be located
+2024-01-29 21:11:04,956 :INFO : login :Waiting for email input xpath to be located
+2024-01-29 21:11:10,126 :INFO : login :Submitting the login form
+2024-01-29 21:11:10,126 :INFO : login :Submitting the login form
+2024-01-29 21:11:10,126 :INFO : login :Submitting the login form
+2024-01-29 21:11:28,814 :INFO : login :Login successful
+2024-01-29 21:11:28,814 :INFO : login :Login successful
+2024-01-29 21:11:28,814 :INFO : login :Login successful
+2024-01-29 21:12:07,296 :INFO : setup_driver :Setting up the driver
+2024-01-29 21:12:07,296 :INFO : setup_driver :Setting up the driver
+2024-01-29 21:12:07,296 :INFO : setup_driver :Setting up the driver
+2024-01-29 21:12:07,296 :INFO : setup_driver :Setting up the driver
+2024-01-29 21:12:08,467 :INFO : login :Opening the login page
+2024-01-29 21:12:08,467 :INFO : login :Opening the login page
+2024-01-29 21:12:08,467 :INFO : login :Opening the login page
+2024-01-29 21:12:08,467 :INFO : login :Opening the login page

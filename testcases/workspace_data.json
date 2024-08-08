@@ -1,0 +1,20 @@
+{
+    "workspaces": [
+        {
+            "type": "(Demo) Protein Folding using Alphafold2",
+            "name": "workDemo_Protein_Folding"
+        },
+        {
+            "type": "Admin Terminal",
+            "name": "workAdmin_Terminal"
+        },
+        {
+             "type": "Basic JupyterLab",
+             "name": "workBasic_JupyterLab"
+        },
+        {
+             "type": "Ubuntu Terminal",
+             "name": "workUbuntu-Terminal"
+        }
+    ]
+}

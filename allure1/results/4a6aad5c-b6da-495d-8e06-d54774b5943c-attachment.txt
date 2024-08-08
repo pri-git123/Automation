@@ -1,0 +1,9 @@
+[32mINFO    [0m driver_setup:conftest.py:10 Setting up the driver
+[33mWARNING [0m selenium.webdriver.common.selenium_manager:selenium_manager.py:149 Error sending stats to Plausible: error sending request for url (https://plausible.io/api/event): operation timed out
+[32mINFO    [0m module:loginpage.py:20 Clicked on 'Science Cloud' module.
+[32mINFO    [0m module:loginpage.py:25 Switched to new window.
+[32mINFO    [0m module:loginpage.py:28 Waiting for email input element to be located.
+[32mINFO    [0m module:loginpage.py:38 Entered email address.
+[32mINFO    [0m module:loginpage.py:42 Entered password.
+[32mINFO    [0m module:loginpage.py:46 Clicked on 'Submit' button.
+[32mINFO    [0m module:loginpage.py:49 Login successful.

@@ -1,0 +1,10 @@
+{
+  "pipelines": [
+    {
+      "selected_pipeline": "AlphaFold2 Monomer New Dir. Struct",
+      "name": "alphafold_jobrun",
+      "file_path": "/Users/nishantchauhan/Documents/test-files/multimer-test/multimer-batch/multimer-1.fasta"
+    }
+
+  ]
+}
